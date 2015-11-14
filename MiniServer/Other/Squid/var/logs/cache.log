@@ -1,0 +1,647 @@
+2012/12/20 10:20:35| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 10:20:35| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/20 10:20:35| Service command line is: 
+2012/12/20 10:20:35| Process ID 4672
+2012/12/20 10:20:35| With 2048 file descriptors available
+2012/12/20 10:20:35| With 2048 CRT stdio descriptors available
+2012/12/20 10:20:35| Windows sockets initialized
+2012/12/20 10:20:35| Using select for the IO loop
+2012/12/20 10:20:35| Performing DNS Tests...
+2012/12/20 10:20:35| Successful DNS name lookup tests...
+2012/12/20 10:20:35| DNS Socket created at 0.0.0.0, port 49943, FD 5
+2012/12/20 10:20:35| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 10:20:35| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 10:20:35| Adding domain  from Registry
+2012/12/20 10:20:35| User-Agent logging is disabled.
+2012/12/20 10:20:35| Referer logging is disabled.
+2012/12/20 10:20:35| logfileOpen: opening log D:/MiniServer/Other/Squid/var/logs/access.log
+2012/12/20 10:20:35| Unlinkd pipe opened on FD 8
+2012/12/20 10:20:35| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 10:20:35| Target number of buckets: 425
+2012/12/20 10:20:35| Using 8192 Store buckets
+2012/12/20 10:20:35| Max Mem  size: 8192 KB
+2012/12/20 10:20:35| Max Swap size: 102400 KB
+2012/12/20 10:20:35| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 10:20:35| logfileOpen: opening log c:/squid/var/logs/store.log
+2012/12/20 10:20:35| D:/MiniServer/Other/Squid/var/cache/00: (2) No such file or directory
+FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+Squid Cache (Version 2.7.STABLE8): Terminated abnormally.
+2012/12/20 10:21:36| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 10:21:36| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/20 10:21:36| Service command line is: 
+2012/12/20 10:21:36| Process ID 5776
+2012/12/20 10:21:36| With 2048 file descriptors available
+2012/12/20 10:21:36| With 2048 CRT stdio descriptors available
+2012/12/20 10:21:36| Windows sockets initialized
+2012/12/20 10:21:36| Using select for the IO loop
+2012/12/20 10:21:36| Performing DNS Tests...
+2012/12/20 10:21:36| Successful DNS name lookup tests...
+2012/12/20 10:21:36| DNS Socket created at 0.0.0.0, port 54691, FD 5
+2012/12/20 10:21:36| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 10:21:36| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 10:21:36| Adding domain  from Registry
+2012/12/20 10:21:36| User-Agent logging is disabled.
+2012/12/20 10:21:36| Referer logging is disabled.
+2012/12/20 10:21:36| logfileOpen: opening log D:/MiniServer/Other/Squid/var/logs/access.log
+2012/12/20 10:21:36| Unlinkd pipe opened on FD 8
+2012/12/20 10:21:36| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 10:21:36| Target number of buckets: 425
+2012/12/20 10:21:36| Using 8192 Store buckets
+2012/12/20 10:21:36| Max Mem  size: 8192 KB
+2012/12/20 10:21:36| Max Swap size: 102400 KB
+2012/12/20 10:21:36| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 10:21:36| logfileOpen: opening log c:/squid/var/logs/store.log
+2012/12/20 10:21:36| D:/MiniServer/Other/Squid/var/cache/00: (2) No such file or directory
+FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+Squid Cache (Version 2.7.STABLE8): Terminated abnormally.
+2012/12/20 10:23:17| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 10:23:17| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/20 10:23:17| Service command line is: 
+2012/12/20 10:23:17| Process ID 3108
+2012/12/20 10:23:17| With 2048 file descriptors available
+2012/12/20 10:23:17| With 2048 CRT stdio descriptors available
+2012/12/20 10:23:17| Windows sockets initialized
+2012/12/20 10:23:17| Using select for the IO loop
+2012/12/20 10:23:17| Performing DNS Tests...
+2012/12/20 10:23:17| Successful DNS name lookup tests...
+2012/12/20 10:23:17| DNS Socket created at 0.0.0.0, port 59833, FD 5
+2012/12/20 10:23:17| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 10:23:17| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 10:23:17| Adding domain  from Registry
+2012/12/20 10:23:17| User-Agent logging is disabled.
+2012/12/20 10:23:17| Referer logging is disabled.
+2012/12/20 10:23:17| logfileOpen: opening log c:/squid/var/logs/access.log
+2012/12/20 10:23:17| Unlinkd pipe opened on FD 8
+2012/12/20 10:23:17| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 10:23:17| Target number of buckets: 425
+2012/12/20 10:23:17| Using 8192 Store buckets
+2012/12/20 10:23:17| Max Mem  size: 8192 KB
+2012/12/20 10:23:17| Max Swap size: 102400 KB
+2012/12/20 10:23:17| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 10:23:17| logfileOpen: opening log c:/squid/var/logs/store.log
+2012/12/20 10:23:17| c:/squid/var/cache/00: (2) No such file or directory
+FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+Squid Cache (Version 2.7.STABLE8): Terminated abnormally.
+2012/12/20 10:23:47| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 10:23:47| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/20 10:23:47| Service command line is: 
+2012/12/20 10:23:47| Process ID 5772
+2012/12/20 10:23:47| With 2048 file descriptors available
+2012/12/20 10:23:47| With 2048 CRT stdio descriptors available
+2012/12/20 10:23:47| Windows sockets initialized
+2012/12/20 10:23:47| Using select for the IO loop
+2012/12/20 10:23:47| Performing DNS Tests...
+2012/12/20 10:23:47| Successful DNS name lookup tests...
+2012/12/20 10:23:47| DNS Socket created at 0.0.0.0, port 62508, FD 5
+2012/12/20 10:23:47| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 10:23:47| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 10:23:47| Adding domain  from Registry
+2012/12/20 10:23:47| User-Agent logging is disabled.
+2012/12/20 10:23:47| Referer logging is disabled.
+2012/12/20 10:23:47| logfileOpen: opening log c:/squid/var/logs/access.log
+2012/12/20 10:23:47| Unlinkd pipe opened on FD 8
+2012/12/20 10:23:47| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 10:23:47| Target number of buckets: 425
+2012/12/20 10:23:47| Using 8192 Store buckets
+2012/12/20 10:23:47| Max Mem  size: 8192 KB
+2012/12/20 10:23:47| Max Swap size: 102400 KB
+2012/12/20 10:23:47| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 10:23:47| logfileOpen: opening log c:/squid/var/logs/store.log
+2012/12/20 10:23:47| c:/squid/var/cache/00: (2) No such file or directory
+FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+Squid Cache (Version 2.7.STABLE8): Terminated abnormally.
+2012/12/20 10:23:56| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 10:23:56| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/20 10:23:56| Service command line is: 
+2012/12/20 10:23:56| Process ID 4316
+2012/12/20 10:23:56| With 2048 file descriptors available
+2012/12/20 10:23:56| With 2048 CRT stdio descriptors available
+2012/12/20 10:23:56| Windows sockets initialized
+2012/12/20 10:23:56| Using select for the IO loop
+2012/12/20 10:23:56| Performing DNS Tests...
+2012/12/20 10:23:56| Successful DNS name lookup tests...
+2012/12/20 10:23:56| DNS Socket created at 0.0.0.0, port 63914, FD 5
+2012/12/20 10:23:56| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 10:23:56| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 10:23:56| Adding domain  from Registry
+2012/12/20 10:23:56| User-Agent logging is disabled.
+2012/12/20 10:23:56| Referer logging is disabled.
+2012/12/20 10:23:56| logfileOpen: opening log c:/squid/var/logs/access.log
+2012/12/20 10:23:56| Unlinkd pipe opened on FD 8
+2012/12/20 10:23:56| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 10:23:56| Target number of buckets: 425
+2012/12/20 10:23:56| Using 8192 Store buckets
+2012/12/20 10:23:56| Max Mem  size: 8192 KB
+2012/12/20 10:23:56| Max Swap size: 102400 KB
+2012/12/20 10:23:56| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 10:23:56| logfileOpen: opening log c:/squid/var/logs/store.log
+2012/12/20 10:23:56| Rebuilding storage in c:/squid/var/cache (DIRTY)
+2012/12/20 10:23:56| Using Least Load store dir selection
+2012/12/20 10:23:56| Set Current Directory to c:/squid/var/cache
+2012/12/20 10:23:56| Loaded Icons.
+2012/12/20 10:23:56| Accepting proxy HTTP connections at 0.0.0.0, port 3128, FD 13.
+2012/12/20 10:23:56| Accepting ICP messages at 0.0.0.0, port 3130, FD 14.
+2012/12/20 10:23:56| Accepting HTCP messages on port 4827, FD 15.
+2012/12/20 10:23:56| Accepting SNMP messages on port 3401, FD 16.
+2012/12/20 10:23:56| Ready to serve requests.
+2012/12/20 10:23:57| Done scanning c:/squid/var/cache (0 entries)
+2012/12/20 10:23:57| Finished rebuilding storage from disk.
+2012/12/20 10:23:57|         0 Entries scanned
+2012/12/20 10:23:57|         0 Invalid entries.
+2012/12/20 10:23:57|         0 With invalid flags.
+2012/12/20 10:23:57|         0 Objects loaded.
+2012/12/20 10:23:57|         0 Objects expired.
+2012/12/20 10:23:57|         0 Objects cancelled.
+2012/12/20 10:23:57|         0 Duplicate URLs purged.
+2012/12/20 10:23:57|         0 Swapfile clashes avoided.
+2012/12/20 10:23:57|   Took 0.9 seconds (   0.0 objects/sec).
+2012/12/20 10:23:57| Beginning Validation Procedure
+2012/12/20 10:23:57|   Completed Validation Procedure
+2012/12/20 10:23:57|   Validated 0 Entries
+2012/12/20 10:23:57|   store_swap_size = 0k
+2012/12/20 10:23:57| storeLateRelease: released 0 objects
+2012/12/20 10:25:06| Leaving Squid service
+2012/12/20 10:25:07| Preparing for shutdown after 47 requests
+2012/12/20 10:25:07| Waiting 30 seconds for active connections to finish
+2012/12/20 10:25:07| FD 13 Closing HTTP connection
+2012/12/20 10:25:07| Shutting down...
+2012/12/20 10:25:07| FD 14 Closing ICP connection
+2012/12/20 10:25:07| FD 15 Closing HTCP socket
+2012/12/20 10:25:07| FD 16 Closing SNMP socket
+2012/12/20 10:25:07| Closing unlinkd pipe on FD 8
+2012/12/20 10:25:07| storeDirWriteCleanLogs: Starting...
+2012/12/20 10:25:07|   Finished.  Wrote 0 entries.
+2012/12/20 10:25:07|   Took 0.0 seconds (   0.0 entries/sec).
+CPU Usage: 0.874 seconds = 0.156 user + 0.718 sys
+Maximum Resident Size: 2380 KB
+Page faults with physical i/o: 3994
+2012/12/20 10:25:07| logfileClose: closing log c:/squid/var/logs/store.log
+2012/12/20 10:25:07| logfileClose: closing log c:/squid/var/logs/access.log
+2012/12/20 10:25:07| Squid Cache (Version 2.7.STABLE8): Exiting normally.
+2012/12/20 10:28:01| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 10:28:01| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/20 10:28:01| Service command line is: 
+2012/12/20 10:28:01| Process ID 7156
+2012/12/20 10:28:01| With 2048 file descriptors available
+2012/12/20 10:28:01| With 2048 CRT stdio descriptors available
+2012/12/20 10:28:01| Windows sockets initialized
+2012/12/20 10:28:01| Using select for the IO loop
+2012/12/20 10:28:01| Performing DNS Tests...
+2012/12/20 10:28:01| Successful DNS name lookup tests...
+2012/12/20 10:28:01| DNS Socket created at 0.0.0.0, port 49299, FD 5
+2012/12/20 10:28:01| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 10:28:01| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 10:28:01| Adding domain  from Registry
+2012/12/20 10:28:01| User-Agent logging is disabled.
+2012/12/20 10:28:01| Referer logging is disabled.
+2012/12/20 10:28:01| logfileOpen: opening log c:/squid/var/logs/access.log
+2012/12/20 10:28:01| Unlinkd pipe opened on FD 8
+2012/12/20 10:28:01| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 10:28:01| Target number of buckets: 425
+2012/12/20 10:28:01| Using 8192 Store buckets
+2012/12/20 10:28:01| Max Mem  size: 8192 KB
+2012/12/20 10:28:01| Max Swap size: 102400 KB
+2012/12/20 10:28:01| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 10:28:01| logfileOpen: opening log c:/squid/var/logs/store.log
+2012/12/20 10:28:01| Rebuilding storage in c:/squid/var/cache (CLEAN)
+2012/12/20 10:28:01| Using Least Load store dir selection
+2012/12/20 10:28:01| Set Current Directory to c:/squid/var/cache
+2012/12/20 10:28:01| Loaded Icons.
+2012/12/20 10:28:01| Accepting proxy HTTP connections at 0.0.0.0, port 3128, FD 14.
+2012/12/20 10:28:01| Accepting ICP messages at 0.0.0.0, port 3130, FD 15.
+2012/12/20 10:28:01| Accepting HTCP messages on port 4827, FD 16.
+2012/12/20 10:28:01| Accepting SNMP messages on port 3401, FD 17.
+2012/12/20 10:28:01| Ready to serve requests.
+2012/12/20 10:28:01| Done reading c:/squid/var/cache swaplog (0 entries)
+2012/12/20 10:28:01| Finished rebuilding storage from disk.
+2012/12/20 10:28:01|         0 Entries scanned
+2012/12/20 10:28:01|         0 Invalid entries.
+2012/12/20 10:28:01|         0 With invalid flags.
+2012/12/20 10:28:01|         0 Objects loaded.
+2012/12/20 10:28:01|         0 Objects expired.
+2012/12/20 10:28:01|         0 Objects cancelled.
+2012/12/20 10:28:01|         0 Duplicate URLs purged.
+2012/12/20 10:28:01|         0 Swapfile clashes avoided.
+2012/12/20 10:28:01|   Took 0.1 seconds (   0.0 objects/sec).
+2012/12/20 10:28:01| Beginning Validation Procedure
+2012/12/20 10:28:01|   Completed Validation Procedure
+2012/12/20 10:28:01|   Validated 0 Entries
+2012/12/20 10:28:01|   store_swap_size = 0k
+2012/12/20 10:28:02| storeLateRelease: released 0 objects
+2012/12/20 10:29:02| Leaving Squid service
+2012/12/20 10:29:03| Preparing for shutdown after 247 requests
+2012/12/20 10:29:03| Waiting 30 seconds for active connections to finish
+2012/12/20 10:29:03| FD 14 Closing HTTP connection
+2012/12/20 10:29:03| Shutting down...
+2012/12/20 10:29:03| FD 15 Closing ICP connection
+2012/12/20 10:29:03| FD 16 Closing HTCP socket
+2012/12/20 10:29:03| FD 17 Closing SNMP socket
+2012/12/20 10:29:03| Closing unlinkd pipe on FD 8
+2012/12/20 10:29:03| storeDirWriteCleanLogs: Starting...
+2012/12/20 10:29:03|   Finished.  Wrote 0 entries.
+2012/12/20 10:29:03|   Took 0.0 seconds (   0.0 entries/sec).
+CPU Usage: 0.234 seconds = 0.125 user + 0.109 sys
+Maximum Resident Size: 3304 KB
+Page faults with physical i/o: 3534
+2012/12/20 10:29:03| logfileClose: closing log c:/squid/var/logs/store.log
+2012/12/20 10:29:03| logfileClose: closing log c:/squid/var/logs/access.log
+2012/12/20 10:29:03| Squid Cache (Version 2.7.STABLE8): Exiting normally.
+2012/12/20 10:29:04| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 10:29:04| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/20 10:29:04| Service command line is: 
+2012/12/20 10:29:04| Process ID 3088
+2012/12/20 10:29:04| With 2048 file descriptors available
+2012/12/20 10:29:04| With 2048 CRT stdio descriptors available
+2012/12/20 10:29:04| Windows sockets initialized
+2012/12/20 10:29:04| Using select for the IO loop
+2012/12/20 10:29:04| Performing DNS Tests...
+2012/12/20 10:29:04| Successful DNS name lookup tests...
+2012/12/20 10:29:04| DNS Socket created at 0.0.0.0, port 56391, FD 5
+2012/12/20 10:29:04| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 10:29:04| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 10:29:04| Adding domain  from Registry
+2012/12/20 10:29:04| User-Agent logging is disabled.
+2012/12/20 10:29:04| Referer logging is disabled.
+2012/12/20 10:29:04| logfileOpen: opening log c:/squid/var/logs/access.log
+2012/12/20 10:29:04| Unlinkd pipe opened on FD 8
+2012/12/20 10:29:04| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 10:29:04| Target number of buckets: 425
+2012/12/20 10:29:04| Using 8192 Store buckets
+2012/12/20 10:29:04| Max Mem  size: 8192 KB
+2012/12/20 10:29:04| Max Swap size: 102400 KB
+2012/12/20 10:29:04| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 10:29:04| logfileOpen: opening log c:/squid/var/logs/store.log
+2012/12/20 10:29:04| Rebuilding storage in c:/squid/var/cache (CLEAN)
+2012/12/20 10:29:04| Using Least Load store dir selection
+2012/12/20 10:29:04| Set Current Directory to c:/squid/var/cache
+2012/12/20 10:29:04| Loaded Icons.
+2012/12/20 10:29:04| Accepting proxy HTTP connections at 0.0.0.0, port 3128, FD 14.
+2012/12/20 10:29:04| Accepting ICP messages at 0.0.0.0, port 3130, FD 15.
+2012/12/20 10:29:04| Accepting HTCP messages on port 4827, FD 16.
+2012/12/20 10:29:04| Accepting SNMP messages on port 3401, FD 17.
+2012/12/20 10:29:04| Ready to serve requests.
+2012/12/20 10:29:04| Done reading c:/squid/var/cache swaplog (0 entries)
+2012/12/20 10:29:04| Finished rebuilding storage from disk.
+2012/12/20 10:29:04|         0 Entries scanned
+2012/12/20 10:29:04|         0 Invalid entries.
+2012/12/20 10:29:04|         0 With invalid flags.
+2012/12/20 10:29:04|         0 Objects loaded.
+2012/12/20 10:29:04|         0 Objects expired.
+2012/12/20 10:29:04|         0 Objects cancelled.
+2012/12/20 10:29:04|         0 Duplicate URLs purged.
+2012/12/20 10:29:04|         0 Swapfile clashes avoided.
+2012/12/20 10:29:04|   Took 0.1 seconds (   0.0 objects/sec).
+2012/12/20 10:29:04| Beginning Validation Procedure
+2012/12/20 10:29:04|   Completed Validation Procedure
+2012/12/20 10:29:04|   Validated 0 Entries
+2012/12/20 10:29:04|   store_swap_size = 0k
+2012/12/20 10:29:05| storeLateRelease: released 0 objects
+2012/12/20 10:32:59| Leaving Squid service
+2012/12/20 10:33:00| Preparing for shutdown after 11 requests
+2012/12/20 10:33:00| Waiting 30 seconds for active connections to finish
+2012/12/20 10:33:00| FD 14 Closing HTTP connection
+2012/12/20 10:33:00| Shutting down...
+2012/12/20 10:33:00| FD 15 Closing ICP connection
+2012/12/20 10:33:00| FD 16 Closing HTCP socket
+2012/12/20 10:33:00| FD 17 Closing SNMP socket
+2012/12/20 10:33:00| Closing unlinkd pipe on FD 8
+2012/12/20 10:33:00| storeDirWriteCleanLogs: Starting...
+2012/12/20 10:33:00|   Finished.  Wrote 0 entries.
+2012/12/20 10:33:00|   Took 0.0 seconds (   0.0 entries/sec).
+CPU Usage: 0.078 seconds = 0.016 user + 0.062 sys
+Maximum Resident Size: 2460 KB
+Page faults with physical i/o: 4778
+2012/12/20 10:33:00| logfileClose: closing log c:/squid/var/logs/store.log
+2012/12/20 10:33:00| logfileClose: closing log c:/squid/var/logs/access.log
+2012/12/20 10:33:00| Squid Cache (Version 2.7.STABLE8): Exiting normally.
+2012/12/20 16:53:23| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 16:53:23| Running on Windows Vista
+2012/12/20 16:53:23| Process ID 7144
+2012/12/20 16:53:23| With 2048 file descriptors available
+2012/12/20 16:53:23| With 512 CRT stdio descriptors available
+2012/12/20 16:53:23| Windows sockets initialized
+2012/12/20 16:53:23| Using select for the IO loop
+2012/12/20 16:53:23| Performing DNS Tests...
+2012/12/20 16:53:23| Successful DNS name lookup tests...
+2012/12/20 16:53:23| DNS Socket created at 0.0.0.0, port 49875, FD 4
+2012/12/20 16:53:23| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 16:53:23| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 16:53:23| Adding DHCP nameserver 219.150.32.132 from Registry
+2012/12/20 16:53:23| Adding DHCP nameserver 219.146.0.130 from Registry
+2012/12/20 16:53:23| Adding domain  from Registry
+2012/12/20 16:53:23| User-Agent logging is disabled.
+2012/12/20 16:53:23| Referer logging is disabled.
+2012/12/20 16:53:23| logfileOpen: opening log c:/squid/var/logs/access.log
+2012/12/20 16:53:23| Unlinkd pipe opened on FD 7
+2012/12/20 16:53:23| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 16:53:23| Target number of buckets: 425
+2012/12/20 16:53:23| Using 8192 Store buckets
+2012/12/20 16:53:23| Max Mem  size: 8192 KB
+2012/12/20 16:53:23| Max Swap size: 102400 KB
+2012/12/20 16:53:23| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 16:53:23| logfileOpen: opening log c:/squid/var/logs/store.log
+2012/12/20 16:53:23| Rebuilding storage in c:/squid/var/cache (CLEAN)
+2012/12/20 16:53:23| Using Least Load store dir selection
+2012/12/20 16:53:23| Set Current Directory to c:/squid/var/cache
+2012/12/20 16:53:23| Loaded Icons.
+2012/12/20 16:53:23| Accepting proxy HTTP connections at 0.0.0.0, port 3128, FD 13.
+2012/12/20 16:53:23| Accepting ICP messages at 0.0.0.0, port 3130, FD 14.
+2012/12/20 16:53:23| Accepting HTCP messages on port 4827, FD 15.
+2012/12/20 16:53:23| Accepting SNMP messages on port 3401, FD 16.
+2012/12/20 16:53:23| Ready to serve requests.
+2012/12/20 16:53:23| Done reading c:/squid/var/cache swaplog (0 entries)
+2012/12/20 16:53:23| Finished rebuilding storage from disk.
+2012/12/20 16:53:23|         0 Entries scanned
+2012/12/20 16:53:23|         0 Invalid entries.
+2012/12/20 16:53:23|         0 With invalid flags.
+2012/12/20 16:53:23|         0 Objects loaded.
+2012/12/20 16:53:23|         0 Objects expired.
+2012/12/20 16:53:23|         0 Objects cancelled.
+2012/12/20 16:53:23|         0 Duplicate URLs purged.
+2012/12/20 16:53:23|         0 Swapfile clashes avoided.
+2012/12/20 16:53:23|   Took 0.5 seconds (   0.0 objects/sec).
+2012/12/20 16:53:23| Beginning Validation Procedure
+2012/12/20 16:53:23|   Completed Validation Procedure
+2012/12/20 16:53:23|   Validated 0 Entries
+2012/12/20 16:53:23|   store_swap_size = 0k
+2012/12/20 16:53:24| storeLateRelease: released 0 objects
+2012/12/20 16:54:21| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 16:54:21| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/20 16:54:21| Service command line is: 
+2012/12/20 16:54:21| Process ID 2728
+2012/12/20 16:54:21| With 2048 file descriptors available
+2012/12/20 16:54:21| With 2048 CRT stdio descriptors available
+2012/12/20 16:54:21| Windows sockets initialized
+2012/12/20 16:54:21| Using select for the IO loop
+2012/12/20 16:54:21| Performing DNS Tests...
+2012/12/20 16:54:21| Successful DNS name lookup tests...
+2012/12/20 16:54:21| DNS Socket created at 0.0.0.0, port 49877, FD 5
+2012/12/20 16:54:21| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 16:54:21| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 16:54:21| Adding DHCP nameserver 219.150.32.132 from Registry
+2012/12/20 16:54:21| Adding DHCP nameserver 219.146.0.130 from Registry
+2012/12/20 16:54:21| Adding domain  from Registry
+2012/12/20 16:54:21| User-Agent logging is disabled.
+2012/12/20 16:54:21| Referer logging is disabled.
+2012/12/20 16:54:21| logfileOpen: opening log c:/squid/var/logs/access.log
+2012/12/20 16:54:21| Unlinkd pipe opened on FD 8
+2012/12/20 16:54:21| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 16:54:21| Target number of buckets: 425
+2012/12/20 16:54:21| Using 8192 Store buckets
+2012/12/20 16:54:21| Max Mem  size: 8192 KB
+2012/12/20 16:54:21| Max Swap size: 102400 KB
+2012/12/20 16:54:21| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 16:54:21| logfileOpen: opening log c:/squid/var/logs/store.log
+2012/12/20 16:54:21| Rebuilding storage in c:/squid/var/cache (DIRTY)
+2012/12/20 16:54:21| Using Least Load store dir selection
+2012/12/20 16:54:21| Set Current Directory to c:/squid/var/cache
+2012/12/20 16:54:21| Loaded Icons.
+2012/12/20 16:54:21| Accepting proxy HTTP connections at 0.0.0.0, port 3128, FD 14.
+2012/12/20 16:54:21| Accepting ICP messages at 0.0.0.0, port 3130, FD 15.
+2012/12/20 16:54:21| Accepting HTCP messages on port 4827, FD 16.
+2012/12/20 16:54:21| Accepting SNMP messages on port 3401, FD 17.
+2012/12/20 16:54:21| Ready to serve requests.
+2012/12/20 16:54:21| Done reading c:/squid/var/cache swaplog (0 entries)
+2012/12/20 16:54:21| Finished rebuilding storage from disk.
+2012/12/20 16:54:21|         0 Entries scanned
+2012/12/20 16:54:21|         0 Invalid entries.
+2012/12/20 16:54:21|         0 With invalid flags.
+2012/12/20 16:54:21|         0 Objects loaded.
+2012/12/20 16:54:21|         0 Objects expired.
+2012/12/20 16:54:21|         0 Objects cancelled.
+2012/12/20 16:54:21|         0 Duplicate URLs purged.
+2012/12/20 16:54:21|         0 Swapfile clashes avoided.
+2012/12/20 16:54:21|   Took 0.1 seconds (   0.0 objects/sec).
+2012/12/20 16:54:21| Beginning Validation Procedure
+2012/12/20 16:54:21|   Completed Validation Procedure
+2012/12/20 16:54:21|   Validated 0 Entries
+2012/12/20 16:54:21|   store_swap_size = 0k
+2012/12/20 16:54:22| storeLateRelease: released 0 objects
+2012/12/20 16:54:39| Leaving Squid service
+2012/12/20 16:54:40| Preparing for shutdown after 0 requests
+2012/12/20 16:54:40| Waiting 30 seconds for active connections to finish
+2012/12/20 16:54:40| FD 14 Closing HTTP connection
+2012/12/20 16:54:40| Shutting down...
+2012/12/20 16:54:40| FD 15 Closing ICP connection
+2012/12/20 16:54:40| FD 16 Closing HTCP socket
+2012/12/20 16:54:40| FD 17 Closing SNMP socket
+2012/12/20 16:54:40| Closing unlinkd pipe on FD 8
+2012/12/20 16:54:40| storeDirWriteCleanLogs: Starting...
+2012/12/20 16:54:40|   Finished.  Wrote 0 entries.
+2012/12/20 16:54:40|   Took 0.0 seconds (   0.0 entries/sec).
+CPU Usage: 0.062 seconds = 0.031 user + 0.031 sys
+Maximum Resident Size: 10340 KB
+Page faults with physical i/o: 2767
+2012/12/20 16:54:40| logfileClose: closing log c:/squid/var/logs/store.log
+2012/12/20 16:54:40| logfileClose: closing log c:/squid/var/logs/access.log
+2012/12/20 16:54:40| Squid Cache (Version 2.7.STABLE8): Exiting normally.
+2012/12/20 17:24:27| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/20 17:24:27| Running as Squid Windows System Service on Windows Vista
+2012/12/20 17:24:27| Service command line is: 
+2012/12/20 17:24:27| Process ID 4720
+2012/12/20 17:24:27| With 2048 file descriptors available
+2012/12/20 17:24:27| With 2048 CRT stdio descriptors available
+2012/12/20 17:24:27| Windows sockets initialized
+2012/12/20 17:24:27| Using select for the IO loop
+2012/12/20 17:24:27| Performing DNS Tests...
+2012/12/20 17:24:27| Successful DNS name lookup tests...
+2012/12/20 17:24:27| DNS Socket created at 0.0.0.0, port 54297, FD 5
+2012/12/20 17:24:27| Adding nameserver 202.113.112.55 from Registry
+2012/12/20 17:24:27| Adding nameserver 8.8.4.4 from Registry
+2012/12/20 17:24:27| Adding DHCP nameserver 219.150.32.132 from Registry
+2012/12/20 17:24:27| Adding DHCP nameserver 219.146.0.130 from Registry
+2012/12/20 17:24:27| Adding domain  from Registry
+2012/12/20 17:24:27| User-Agent logging is disabled.
+2012/12/20 17:24:27| Referer logging is disabled.
+2012/12/20 17:24:27| logfileOpen: opening log d:/squid/var/logs/access.log
+2012/12/20 17:24:27| Unlinkd pipe opened on FD 8
+2012/12/20 17:24:27| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2012/12/20 17:24:27| Target number of buckets: 425
+2012/12/20 17:24:27| Using 8192 Store buckets
+2012/12/20 17:24:27| Max Mem  size: 8192 KB
+2012/12/20 17:24:27| Max Swap size: 102400 KB
+2012/12/20 17:24:27| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/20 17:24:27| logfileOpen: opening log d:/squid/var/logs/store.log
+2012/12/20 17:24:27| Rebuilding storage in d:/squid/var/cache (CLEAN)
+2012/12/20 17:24:27| Using Least Load store dir selection
+2012/12/20 17:24:27| Set Current Directory to d:/squid/var/cache
+2012/12/20 17:24:27| Loaded Icons.
+2012/12/20 17:24:27| Accepting proxy HTTP connections at 0.0.0.0, port 3128, FD 14.
+2012/12/20 17:24:27| Accepting ICP messages at 0.0.0.0, port 3130, FD 15.
+2012/12/20 17:24:27| Accepting HTCP messages on port 4827, FD 16.
+2012/12/20 17:24:27| Accepting SNMP messages on port 3401, FD 17.
+2012/12/20 17:24:27| Ready to serve requests.
+2012/12/20 17:24:28| Done reading d:/squid/var/cache swaplog (0 entries)
+2012/12/20 17:24:28| Finished rebuilding storage from disk.
+2012/12/20 17:24:28|         0 Entries scanned
+2012/12/20 17:24:28|         0 Invalid entries.
+2012/12/20 17:24:28|         0 With invalid flags.
+2012/12/20 17:24:28|         0 Objects loaded.
+2012/12/20 17:24:28|         0 Objects expired.
+2012/12/20 17:24:28|         0 Objects cancelled.
+2012/12/20 17:24:28|         0 Duplicate URLs purged.
+2012/12/20 17:24:28|         0 Swapfile clashes avoided.
+2012/12/20 17:24:28|   Took 0.3 seconds (   0.0 objects/sec).
+2012/12/20 17:24:28| Beginning Validation Procedure
+2012/12/20 17:24:28|   Completed Validation Procedure
+2012/12/20 17:24:28|   Validated 0 Entries
+2012/12/20 17:24:28|   store_swap_size = 0k
+2012/12/20 17:24:28| storeLateRelease: released 0 objects
+2012/12/20 17:24:36| Leaving Squid service
+2012/12/20 17:24:37| Preparing for shutdown after 0 requests
+2012/12/20 17:24:37| Waiting 30 seconds for active connections to finish
+2012/12/20 17:24:37| FD 14 Closing HTTP connection
+2012/12/20 17:24:37| Shutting down...
+2012/12/20 17:24:37| FD 15 Closing ICP connection
+2012/12/20 17:24:37| FD 16 Closing HTCP socket
+2012/12/20 17:24:37| FD 17 Closing SNMP socket
+2012/12/20 17:24:37| Closing unlinkd pipe on FD 8
+2012/12/20 17:24:37| storeDirWriteCleanLogs: Starting...
+2012/12/20 17:24:37|   Finished.  Wrote 0 entries.
+2012/12/20 17:24:37|   Took 0.0 seconds (   0.0 entries/sec).
+CPU Usage: 0.078 seconds = 0.047 user + 0.031 sys
+Maximum Resident Size: 10336 KB
+Page faults with physical i/o: 2770
+2012/12/20 17:24:37| logfileClose: closing log d:/squid/var/logs/store.log
+2012/12/20 17:24:37| logfileClose: closing log d:/squid/var/logs/access.log
+2012/12/20 17:24:37| Squid Cache (Version 2.7.STABLE8): Exiting normally.
+2012/12/23 19:07:15| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/23 19:07:15| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/23 19:07:15| Service command line is: 
+2012/12/23 19:07:15| Process ID 5008
+2012/12/23 19:07:15| With 2048 file descriptors available
+2012/12/23 19:07:15| With 2048 CRT stdio descriptors available
+2012/12/23 19:07:15| Windows sockets initialized
+2012/12/23 19:07:15| Using select for the IO loop
+2012/12/23 19:07:15| Performing DNS Tests...
+2012/12/23 19:07:15| Successful DNS name lookup tests...
+2012/12/23 19:07:15| DNS Socket created at 0.0.0.0, port 61849, FD 5
+2012/12/23 19:07:15| Adding nameserver 202.113.112.55 from Registry
+2012/12/23 19:07:15| Adding nameserver 8.8.4.4 from Registry
+2012/12/23 19:07:15| Adding DHCP nameserver 219.150.32.132 from Registry
+2012/12/23 19:07:15| Adding DHCP nameserver 219.146.0.130 from Registry
+2012/12/23 19:07:15| Adding domain  from Registry
+2012/12/23 19:07:15| User-Agent logging is disabled.
+2012/12/23 19:07:15| Referer logging is disabled.
+2012/12/23 19:07:15| logfileOpen: opening log F:/MiniServer/Other/Squid/var/logs/access.log
+2012/12/23 19:07:15| Unlinkd pipe opened on FD 8
+2012/12/23 19:07:15| Swap maxSize 1048576 + 102400 KB, estimated 88536 objects
+2012/12/23 19:07:15| Target number of buckets: 4426
+2012/12/23 19:07:15| Using 8192 Store buckets
+2012/12/23 19:07:15| Max Mem  size: 102400 KB
+2012/12/23 19:07:15| Max Swap size: 1048576 KB
+2012/12/23 19:07:15| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/23 19:07:15| logfileOpen: opening log F:/MiniServer/Other/Squid/var/logs/store.log
+2012/12/23 19:07:15| F:/MiniServer/Other/Squid/var/cache/00: (2) No such file or directory
+FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+Squid Cache (Version 2.7.STABLE8): Terminated abnormally.
+2012/12/23 19:07:25| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2012/12/23 19:07:25| Running as MiniServ_Squid Windows System Service on Windows Vista
+2012/12/23 19:07:25| Service command line is: 
+2012/12/23 19:07:25| Process ID 6168
+2012/12/23 19:07:25| With 2048 file descriptors available
+2012/12/23 19:07:25| With 2048 CRT stdio descriptors available
+2012/12/23 19:07:25| Windows sockets initialized
+2012/12/23 19:07:25| Using select for the IO loop
+2012/12/23 19:07:25| Performing DNS Tests...
+2012/12/23 19:07:25| Successful DNS name lookup tests...
+2012/12/23 19:07:25| DNS Socket created at 0.0.0.0, port 51605, FD 5
+2012/12/23 19:07:25| Adding nameserver 202.113.112.55 from Registry
+2012/12/23 19:07:25| Adding nameserver 8.8.4.4 from Registry
+2012/12/23 19:07:25| Adding DHCP nameserver 219.150.32.132 from Registry
+2012/12/23 19:07:25| Adding DHCP nameserver 219.146.0.130 from Registry
+2012/12/23 19:07:25| Adding domain  from Registry
+2012/12/23 19:07:25| User-Agent logging is disabled.
+2012/12/23 19:07:25| Referer logging is disabled.
+2012/12/23 19:07:25| logfileOpen: opening log F:/MiniServer/Other/Squid/var/logs/access.log
+2012/12/23 19:07:25| Unlinkd pipe opened on FD 8
+2012/12/23 19:07:25| Swap maxSize 1048576 + 102400 KB, estimated 88536 objects
+2012/12/23 19:07:25| Target number of buckets: 4426
+2012/12/23 19:07:25| Using 8192 Store buckets
+2012/12/23 19:07:25| Max Mem  size: 102400 KB
+2012/12/23 19:07:25| Max Swap size: 1048576 KB
+2012/12/23 19:07:25| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2012/12/23 19:07:25| logfileOpen: opening log F:/MiniServer/Other/Squid/var/logs/store.log
+2012/12/23 19:07:25| F:/MiniServer/Other/Squid/var/cache/00: (2) No such file or directory
+FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+Squid Cache (Version 2.7.STABLE8): Terminated abnormally.
+2015/08/13 08:48:28| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2015/08/13 08:48:28| Running as MiniServ_Squid Windows System Service on Windows Vista
+2015/08/13 08:48:28| Service command line is: 
+2015/08/13 08:48:28| Process ID 6020
+2015/08/13 08:48:28| With 2048 file descriptors available
+2015/08/13 08:48:28| With 2048 CRT stdio descriptors available
+2015/08/13 08:48:28| Windows sockets initialized
+2015/08/13 08:48:28| Using select for the IO loop
+2015/08/13 08:48:28| Performing DNS Tests...
+2015/08/13 08:48:28| Successful DNS name lookup tests...
+2015/08/13 08:48:28| DNS Socket created at 0.0.0.0, port 54802, FD 5
+2015/08/13 08:48:28| Adding DHCP nameserver 192.168.1.1 from Registry
+2015/08/13 08:48:28| Adding domain  from Registry
+2015/08/13 08:48:28| User-Agent logging is disabled.
+2015/08/13 08:48:28| Referer logging is disabled.
+2015/08/13 08:48:28| logfileOpen: opening log E:/MiniServer/Other/Squid/var/logs/access.log
+2015/08/13 08:48:28| Unlinkd pipe opened on FD 8
+2015/08/13 08:48:28| Swap maxSize 1048576 + 102400 KB, estimated 88536 objects
+2015/08/13 08:48:28| Target number of buckets: 4426
+2015/08/13 08:48:28| Using 8192 Store buckets
+2015/08/13 08:48:28| Max Mem  size: 102400 KB
+2015/08/13 08:48:28| Max Swap size: 1048576 KB
+2015/08/13 08:48:28| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2015/08/13 08:48:28| logfileOpen: opening log E:/MiniServer/Other/Squid/var/logs/store.log
+2015/08/13 08:48:28| Rebuilding storage in E:/MiniServer/Other/Squid/var/cache (DIRTY)
+2015/08/13 08:48:28| Using Least Load store dir selection
+2015/08/13 08:48:28| Current Directory is E:\MiniServer\Other\Squid\sbin
+2015/08/13 08:48:28| Loaded Icons.
+2015/08/13 08:48:28| Accepting accelerated HTTP connections at 0.0.0.0, port 3128, FD 13.
+2015/08/13 08:48:28| Accepting ICP messages at 0.0.0.0, port 3130, FD 14.
+2015/08/13 08:48:28| Accepting HTCP messages on port 4827, FD 15.
+2015/08/13 08:48:28| Accepting SNMP messages on port 3401, FD 16.
+2015/08/13 08:48:28| Configuring www Parent www/80/0
+2015/08/13 08:48:28| Ready to serve requests.
+2015/08/13 08:48:31| Done scanning E:/MiniServer/Other/Squid/var/cache (0 entries)
+2015/08/13 08:48:31| Finished rebuilding storage from disk.
+2015/08/13 08:48:31|         0 Entries scanned
+2015/08/13 08:48:31|         0 Invalid entries.
+2015/08/13 08:48:31|         0 With invalid flags.
+2015/08/13 08:48:31|         0 Objects loaded.
+2015/08/13 08:48:31|         0 Objects expired.
+2015/08/13 08:48:31|         0 Objects cancelled.
+2015/08/13 08:48:31|         0 Duplicate URLs purged.
+2015/08/13 08:48:31|         0 Swapfile clashes avoided.
+2015/08/13 08:48:31|   Took 2.6 seconds (   0.0 objects/sec).
+2015/08/13 08:48:31| Beginning Validation Procedure
+2015/08/13 08:48:31|   Completed Validation Procedure
+2015/08/13 08:48:31|   Validated 0 Entries
+2015/08/13 08:48:31|   store_swap_size = 0k
+2015/08/13 08:48:31| storeLateRelease: released 0 objects
+2015/08/13 18:32:41| Leaving Squid service
+2015/08/13 18:32:42| Preparing for shutdown after 0 requests
+2015/08/13 18:32:42| Waiting 30 seconds for active connections to finish
+2015/08/13 18:32:42| FD 13 Closing HTTP connection
+2015/08/13 18:32:42| Shutting down...
+2015/08/13 18:32:42| FD 14 Closing ICP connection
+2015/08/13 18:32:42| FD 15 Closing HTCP socket
+2015/08/13 18:32:42| FD 16 Closing SNMP socket
+2015/08/13 18:32:42| Closing unlinkd pipe on FD 8
+2015/08/13 18:32:42| storeDirWriteCleanLogs: Starting...
+2015/08/13 18:32:42|   Finished.  Wrote 0 entries.
+2015/08/13 18:32:42|   Took 0.0 seconds (   0.0 entries/sec).
+CPU Usage: 5.008 seconds = 1.201 user + 3.806 sys
+Maximum Resident Size: 2344 KB
+Page faults with physical i/o: 3755
+2015/08/13 18:32:42| logfileClose: closing log E:/MiniServer/Other/Squid/var/logs/store.log
+2015/08/13 18:32:42| logfileClose: closing log E:/MiniServer/Other/Squid/var/logs/access.log
+2015/08/13 18:32:42| Squid Cache (Version 2.7.STABLE8): Exiting normally.

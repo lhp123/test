@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+.but_use {
+
+	width:80px; 
+
+	height:30px; 
+
+	line-height:30px; 
+
+	text-align:center; 
+
+	border:none; 
+
+	background:#FF8500; 
+
+	color:#FFF; 
+
+	font-size:14px; 
+
+	font-family:'微软雅黑';
+
+}
+
+.but_disuse {
+
+	width: 80px;
+
+	height: 30px;
+
+	line-height: 30px;
+
+	text-align: center;
+
+	border: none;
+
+	color: #FFF;
+
+	font-size: 14px;
+
+	font-family: '微软雅黑';
+
+	background-color: #CCCCCC;
+
+}
+
+#footer {
+
+	background-image: url(../images/debut_light.png);
+
+	background-repeat: repeat;
+
+	border-top-width: 1px;
+
+	border-top-style: solid;
+
+	border-top-color: #c7c7c7;
+
+	overflow:hidden;
+
+}
+
+#footer_main {
+
+	width: 1003px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+}
+
+#footer_main_yq {
+
+	background-color: #ededed;
+
+	border: 1px solid #a2a2a2;
+
+	height: 73px;
+
+	width: 991px;
+
+	margin-top: 10px;
+
+	margin-bottom: 10px;
+
+	padding: 5px;
+
+}
+
+#footer_main_yq table tr td ul li {
+
+	margin-right: 5px;
+
+	margin-left: 5px;
+
+	padding-top: 5px;
+
+	padding-right: 0px;
+
+	padding-bottom: 5px;
+
+	padding-left: 0px;
+
+}
+
+#footer_main_yq table tr td ul li:hover {
+
+	background: none;
+
+}
+
+#footer_main_yq table tr td ul li a {
+
+	font-size: 12px;
+
+	color: #fff;
+
+}
+
+#footer_main_yq table tr td ul li a:link {
+
+	color: #666;
+
+	text-decoration: none;
+
+}
+
+ #footer_main_yq table tr td ul li a:active: {
+
+color: #666;
+
+}
+
+#footer_main_yq table tr td ul li a:visited {
+
+	color: #666;
+
+	text-decoration: none;
+
+}
+
+#footer_main_yq table tr td ul li a:hover {
+
+	color: #313131;
+
+	text-decoration: none;
+
+}
+
+#footer_line {
+
+	background-color: #f7ab00;
+
+	height: 3px;
+
+	margin-bottom: 10px;
+
+}
+
+#footer_main2 {
+
+	width: 1003px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+	text-align: center;
+
+	font-size: 12px;
+
+	color: #666;
+
+	line-height: 25px;
+
+}
+
+#footer_main2 a {
+
+	font-size: 12px;
+
+	color: #fff;
+
+}
+
+#footer_main2 a:link {
+
+	color: #666;
+
+	text-decoration: none;
+
+}
+
+ #footer_main2 a:active: {
+
+color: #666;
+
+}
+
+#footer_main2 a:visited {
+
+	color: #666;
+
+	text-decoration: none;
+
+}
+
+#footer_main2 a:hover {
+
+	color: #313131;
+
+	text-decoration: none;
+
+}
+
+#tbox{width:54px; float:right; position:fixed; right:50px; bottom:15px;
+
+_position:absolute;
+
+_bottom:auto;
+
+_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+
+_margin-bottom:15px;
+
+}/*解决IE6下不兼容 position:fixed 的问题*/
+
+#pinglun,#xiangguan,#gotop{ width:54px; height:56px; background:url(../images/icon.png) no-repeat; display:block;}
+
+#pinglun{ background-position:0 0;}
+
+#xiangguan{ background-position:0 -59px;}
+
+#gotop{ background-position:0 -118px;} 

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta http-equiv="Content-Type" content="textml; charset=UTF-8"> 
+	<meta charset="utf-8"> 
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"> 
+	<meta content="yes" name="apple-mobile-web-app-capable"> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style"> 
+	<meta content="telephone=yes" name="format-detection">
+	<link rel="stylesheet" type="text/css" href="netcss/style.css" />
+	<script type="text/javascript" src="netjs/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="netjs/jquery.wallform.js"></script>
+	<script type="text/javascript" src="netjs/RegLogin.js"></script>
+	<title>首页</title>
+ </head>
+ <body id="bianjiPage">
+	<div id="bj_content">
+		<!--头部-->
+		<div id="ht_header">
+			<!--退出 管理中心-->
+			<div class="ht_nav">
+				<ul class="lr_ul">
+					<li><a href="">退出&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="">您好，admin&nbsp;&nbsp;&nbsp;</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="" style="height:50px;width:100%;line-height:50px;background-color:#fff;">&nbsp;&nbsp;<a href="houtai.php" class="gl_center">管理中心</a>：用户列表</div>
+		<!--middle-->
+		<div class="bj_middle">
+			<div class="bj_fabu">
+				<table cellpadding=3 cellspacing=1>
+					<tr>
+						<th>选择</th>
+						<th>用户名</th>
+						<th>姓名</th>
+						<th>手机号</th>
+					</tr>
+					<tr>
+						<td><span class="del">删除</span></td>
+						<td class="td1">打断点</td>
+						<td class="td2">达到</td>
+						<td class="td3">完全</td>
+					</tr>
+					<tr>
+						<td><span class="del">删除</span></td>
+						<td class="td1">打断点</td>
+						<td class="td2">达到</td>
+						<td class="td3">完全</td>
+					</tr>
+					<tr>
+						<td><span class="del">删除</span></td>
+						<td class="td1">打断点</td>
+						<td class="td2">达到</td>
+						<td class="td3">完全</td>
+					</tr>
+					<tr>
+						<td><span class="del">删除</span></td>
+						<td class="td1">打断点</td>
+						<td class="td2">达到</td>
+						<td class="td3">完全</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$.post("action.php",{action:"getusrlist"},function(data){
+			//alert(data);
+			var datas = eval("("+data+")");
+			if(datas.success == 1){
+				var tr = $("table tr");
+				for(var i=0; i<tr.size(); i++){
+					$("tr").eq(i).find(".td1").html(datas.data[i].usrname);
+					$("tr").eq(i).find(".td2").html(datas.data[i].name);
+					$("tr").eq(i).find(".td3").html(datas.data[i].mphone);
+				}
+			}
+		})
+		$(".del").click(function(){
+			var del_user = $(".td1").html();alert(del_user);
+			$.post("action.php",{action:"delusr",username:del_user},function(data){
+				var datas = eval("("+data+")");
+				if(datas.success == 1){
+					alert(datas.msg);
+				}
+			});
+			$(this).parents("tr").remove();
+		});
+	</script>
+ </body>
+</html>

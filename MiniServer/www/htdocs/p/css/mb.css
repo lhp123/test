@@ -1,0 +1,23 @@
+.autocomplete_m_def {
+	border: 1px solid #d9d9d9;
+	border-top: 0;
+	background: #FFF;
+	cursor: pointer;
+	text-align: left;
+	overflow: auto;
+	width: 98.6%
+}
+
+.autocomplete_m_def .ui_sel {
+	background: #ccc
+}
+
+.autocomplete_m_def .ui_item {
+	border-top: 1px solid #d9d9d9;
+	padding: 5px 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	height: 38px;
+	line-height: 38px
+}

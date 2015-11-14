@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta http-equiv="Content-Type" content="textml; charset=UTF-8"> 
+	<meta charset="utf-8"> 
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"> 
+	<meta content="yes" name="apple-mobile-web-app-capable"> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style"> 
+	<meta content="telephone=yes" name="format-detection">
+	<link rel="stylesheet" type="text/css" href="netcss/style.css" />
+	<script type="text/javascript" src="netjs/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="netjs/jquery.wallform.js"></script>
+	<script type="text/javascript" src="netjs/RegLogin.js"></script>
+	<title>首页</title>
+ </head>
+ <body id="bianjiPage">
+	<div id="bj_content">
+		<!--头部-->
+		<div id="ht_header">
+			<!--退出 管理中心-->
+			<div class="ht_nav">
+				<ul class="lr_ul">
+					<li><a href="">退出&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="">您好，admin&nbsp;&nbsp;&nbsp;</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="" style="height:50px;width:100%;line-height:50px;background-color:#fff;">&nbsp;&nbsp;<a href="houtai.php" class="gl_center">管理中心</a>：发布产品</div>
+		<!--middle-->
+		<div class="bj_middle">
+			<div class="bj_fabu">
+				<form id="bj_fabuForm" method="post" enctype="multipart/form-data" action="upload.php">
+					<div class="bianji">
+						<span class="inputTip">产品名称：</span>
+						<input type="text" name="cpname" id="cpname" />	
+					</div>
+					<div class="bianji">
+						<span class="inputTip">价 格：</span>
+						<input type="text" name="cpprice" id="cpprice" />	
+					</div>
+					<div class="bianji">
+						<span class="inputTip">数 量：</span>
+						<input type="text" name="cpnum" id="cpnum" />	
+					</div>
+					<div class="bianji">
+						<span class="inputTip">产品图片：</span>
+						<input type="text" name="cppic" id="cppic" style="width:148px;float:left;"  />
+						<input type="file" multiple="multiple" accept="image/jpeg" id="cpic" class="cpic" value="选择图片" name="photoimg"  />
+					</div>
+					<div class="bianji">
+						<span class="inputTip">产品描述：</span>
+						<div class="cpname" id="cpmiaoshu" name="cpmiaoshu" contenteditable="true"></div>	
+					</div>
+					<div style="clear:both;"></div>
+					<div class="tijiao" style="">
+						<a id="tj_btn">修 改</a>
+					<div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+		function GetUrlParamter(name){
+			var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+			var r = window.location.search.substr(1).match(reg);
+			if(r!=null)return  unescape(r[2]); return null;
+		}
+		var list_id = GetUrlParamter("id");
+		$.post("action.php",{action:"getnhdetail",id:list_id},function(data){
+			//alert(data);
+			var datas = eval("("+data+")");
+			if(datas.success == 1){
+				$("#cpname").val(datas.title);
+				$("#cpprice").val(datas.commission);
+				$("#cpnum").val(datas.qty);
+				$("#cppic").val(datas.img);
+				$("#cpmiaoshu").html(datas.content);
+			}
+		});
+
+		$("#cpic").click(function(){
+			$(this).mouseout(function(){
+				//$("#cppic").val(cppic);
+				var picadd = "";
+				var pic = document.getElementById("cpic").files;
+				if(pic.length > 0 & pic.length <= 10){
+					for(var i=0; i<pic.length; i++){
+						picadd += pic[i].name + ";";
+					}
+					$("#cppic").val(picadd);
+					$("#bj_fabuForm").ajaxForm({
+						//target: '#preview', 
+						beforeSubmit:function(){
+							//alert(1);
+							if(pic[0].size > 100*1024){
+								//alert("图片大小不能超过100KB");
+								$("#cppic").val("");
+							}
+						}, 
+						success:function(){
+							//alert(2);
+						}, 
+						error:function(){
+						} 
+					}).submit();
+				}
+				if(pic.length > 10){
+					alert("图片不能超过10张");
+				}
+				$(this).unbind("mouseout");
+			})
+		});
+	
+		$("#tj_btn").click(function(){
+			if($.trim($("#cpname").val()) != "" && $.trim($("#cpname").val()) != undefined && 
+				$.trim($("#cpprice").val()) != "" && $.trim($("#cpprice").val()) != undefined && 
+				$.trim($("#cpnum").val()) != "" && $.trim($("#cpnum").val()) != undefined && 
+				$.trim($("#cppic").val()) != "" && $.trim($("#cppic").val()) != undefined && 
+				$.trim($("#cpmiaoshu").html()) != "" && $.trim($("#cpmiaoshu").html()) != undefined){
+				var data = {title:$.trim($("#cpname").val()),content:$.trim($("#cpmiaoshu").html()),qty:$.trim($("#cpnum").val()),commission:$.trim($("#cpprice").val()),img:$.trim($("#cppic").val()),pid:list_id};
+				alter_tj(data);
+			}else{
+				alert("以上内容不能为空");
+			}
+		});
+		
+	</script>
+ </body>
+</html>

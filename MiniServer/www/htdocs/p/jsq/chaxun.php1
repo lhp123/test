@@ -1,0 +1,328 @@
+<?include_once 'head_jsq.php'; ?>
+<script type="text/javascript">
+var siteUrl = "http://m.soufun.com/";
+var city = "bj";
+var zfSiteUrl = "http://m.soufun.com/zf/";
+var bbsSiteUrl = "http://m.soufun.com/bbs/";
+var newsSiteUrl = "http://m.soufun.com/news/";
+var jiajuSiteUrl = "http://m.soufun.com/jiaju/";
+var askSiteUrl = "http://m.soufun.com/ask/";
+var nn = new NewMsgNum("http://m.soufun.com/","bj");
+nn.getMsg($(".sms-num"));
+	
+	
+	//点击其他部分关闭选择框
+	document.onclick = function(e){
+		if (e.target.getAttribute("id") != "showselection"){
+			if($("#selection").css("display") == "block"){
+				$("#selection").hide();
+			}
+		}
+	}
+	
+		function navOpra(){
+			if ($("#nav").css('display') == 'none') {
+				$('#nav').show();
+				$("#newMsgNumWrap").css("display","none");
+			}
+			else {
+				$('#nav').hide();
+				if(parseInt($("#newMsgNum").html())<100 && parseInt($("#newMsgNum").html())>0){
+					$("#newMsgNumWrap").css("display","block");
+				}
+			}
+		}
+		
+		//获取页面的高度、宽度
+		function getPageSize() {
+		    var xScroll, yScroll;
+		    if (window.innerHeight && window.scrollMaxY) {
+		        xScroll = window.innerWidth + window.scrollMaxX;
+		        yScroll = window.innerHeight + window.scrollMaxY;
+		    } else {
+		        if (document.body.scrollHeight > document.body.offsetHeight) { // all but Explorer Mac    
+		            xScroll = document.body.scrollWidth;
+		            yScroll = document.body.scrollHeight;
+		        } else { // Explorer Mac...would also work in Explorer 6 Strict, Mozilla and Safari    
+		            xScroll = document.body.offsetWidth;
+		            yScroll = document.body.offsetHeight;
+		        }
+		    }
+		    var windowWidth, windowHeight;
+		    if (self.innerHeight) { // all except Explorer    
+		        if (document.documentElement.clientWidth) {
+		            windowWidth = document.documentElement.clientWidth;
+		        } else {
+		            windowWidth = self.innerWidth;
+		        }
+		        windowHeight = self.innerHeight;
+		    } else {
+		        if (document.documentElement && document.documentElement.clientHeight) { // Explorer 6 Strict Mode    
+		            windowWidth = document.documentElement.clientWidth;
+		            windowHeight = document.documentElement.clientHeight;
+		        } else {
+		            if (document.body) { // other Explorers    
+		                windowWidth = document.body.clientWidth;
+		                windowHeight = document.body.clientHeight;
+		            }
+		        }
+		    }       
+		    // for small pages with total height less then height of the viewport    
+		    if (yScroll < windowHeight) {
+		        pageHeight = windowHeight;
+		    } else {
+		        pageHeight = yScroll;
+		    }    
+		    // for small pages with total width less then width of the viewport    
+		    if (xScroll < windowWidth) {
+		        pageWidth = xScroll;
+		    } else {
+		        pageWidth = windowWidth;
+		    }
+		    var dif = pageHeight - 2*windowHeight;
+		    $('#BackTop').hide();
+		    if(dif > 0)
+		    {
+		    	$('#BackTop').show();
+		    }
+		    else
+		    {
+		    	$('#BackTop').hide();
+		    }
+		}
+		
+		$(document).ready(function(){
+			$("#waptool_B01_10").bind("click",function(){
+				$(".sms-num").css({
+				    "margin-left":"25px",
+				    "margin-top":"-30px",
+				    "margin-right":"0",
+				    "top":"auto",
+				    "right":"auto",
+					"border-radius":"6px"
+				});
+			});
+			    
+			getPageSize();
+			$('#showselection').click(function(){
+				$("#selection").show(); 
+			});
+			$('#selection p').click(function(){
+				var obj = $(this).find('input'); 
+				$("input[name='type']").attr("checked",false); 
+				obj.attr("checked",true);
+				repay = obj.val();
+				var arr = new Array();
+				arr[0] = "新房";
+				arr[1] = "二手房";
+				arr[2] = "租房";
+				arr[3] = "家居";
+				arr[4] = "论坛";
+				arr[5] = "资讯";
+				arr[6] = "问答";
+				var staticshow = new Array();
+				staticshow[0] = '楼盘名/地名/开发商';
+				staticshow[1] = '楼盘名/地段名';
+				staticshow[2] = '楼盘名/地段名';
+				staticshow[3] = '楼盘名/风格/户型';
+				staticshow[4] = '楼盘名/小区名/论坛名';
+				staticshow[5] = '请输入关键字';
+				staticshow[6] = '请输入您的问题';
+				$('#q').attr('placeholder',staticshow[repay]);
+				if(repay == 1){
+					$('#showselection').html(arr[repay]);
+				}else{
+					$('#showselection').html('&nbsp;&nbsp;'+arr[repay]);
+				}
+				$("#selection").hide();
+			});
+		});
+		
+		function searchkw()
+		{
+			var type = $('input[name=type][checked]').val(); 
+			var q = $('#q').val();
+			if(type == 4)
+			{
+				window.location = bbsSiteUrl+"?c=bbs&a=search&city="+city+"&q="+encodeURIComponent(q)+"&r="+Math.random();
+			}
+			else if(type == 2)
+			{
+				window.location = zfSiteUrl+"?c=zf&a=index&city="+city+"&keyword="+encodeURIComponent(q)+"&r="+Math.random();
+			}
+			else if(type == 3)
+			{
+			window.location = jiajuSiteUrl+"?c=jiaju&a=index&city="+city+"&q="+encodeURIComponent(q)+"&r="+Math.random(); 
+			}
+			else if(type == 5)
+			{
+				window.location = newsSiteUrl+"?c=news&a=search&city="+city+"&q="+encodeURIComponent(q)+"&r="+Math.random();
+			}
+			else if(type ==6)
+			{
+				//问答搜索
+			    window.location = askSiteUrl+"?c=ask&a=search&city="+city+"&keyword="+encodeURIComponent(q)+"&r="+Math.random();
+			}
+			else
+			{
+			    window.location = siteUrl+"search.d?type="+type+"&city="+city+"&m=search&keyword="+q+"&r="+Math.random();
+			}
+		}
+		
+		function showmore()
+		{
+			$('#showMoreNav').show();
+			$('#more').hide();
+			$('#askurl').show();
+		}
+		function showMoreNav()
+		{
+			$('#showMoreNav').hide();
+			$('#more').show();
+			$('#askurl').hide();
+		}
+	
+</script>
+<!-- tools/inc.header.html compiled file created on 2013-11-05 14:57:43 -->
+<!--计算器 begin-->
+<article class="jsqmain">
+    <div class="jsqname">
+        <div class="td03">商业贷款计算结果</div>
+    </div>
+    <dl class="jsqtr01">
+        <dt>还款方式</dt>
+        <dd>等额本息</dd>
+    </dl>
+    <dl class="jsqtr01">
+        <dt>贷款总额</dt>
+        <dd>100.000万元</dd>
+    </dl>
+    <dl class="jsqtr01">
+              <dt>贷款利率</dt>
+       <dd>6.00%</dd>
+           </dl>
+    <dl class="jsqtr01">
+        <dt>按揭年数</dt>
+        <dd>1年（12期）</dd>
+    </dl>
+    <dl class="jsqtr01">
+        <dt>还款总额</dt>
+        <dd>103.280万元</dd>
+    </dl>
+    <dl class="jsqtr01">
+        <dt>支付利息</dt>
+        <dd>3.280万元</dd>
+    </dl>
+        <dl class="jsqtr01">
+        <dt>月均还款</dt>
+        <dd>86,066.43元</dd>
+    </dl>
+        <p class="cknotes">*以上结果仅供参考</p>
+    <div class="jsqbotton"><a href="jsq.html"><input type="button" value="重新计算"></a></div>
+</article>
+<!--计算器 end-->
+
+<script>
+$('#arrow').click(function(){
+    if($('#arrow').hasClass('arrowdown'))
+    {
+        $('#arrow').removeClass('arrowdown');
+        $('#arrow').addClass('arrowup');
+        $('#arrowshow').show();
+        getPageSize();
+    }
+    else
+    {
+        $('#arrow').removeClass('arrowup');
+        $('#arrow').addClass('arrowdown');
+        $('#arrowshow').hide();
+        getPageSize();
+    }
+});
+</script>
+<script>
+
+var _dctc=_dctc || {};
+_dctc._account=_dctc._account ||[];
+_dctc.isNorth = _dctc.isNorth || 'Y';  
+_dctc.bid = '909001';
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript'; script.async = true;
+script.src = 'http://js.soufunimg.com/count/loadforwapandm.min.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(script, s);
+})();
+window.scrollTo(0, 1);
+function scroll_top(){
+	window.scrollTo(0, 1);
+}
+function getCookie(name){
+	var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+	if(arr=document.cookie.match(reg)) {
+		return unescape(arr[2]);
+	}else{
+		return null;
+	}
+}
+function setCookie(name,value){ 
+	var Days = 7; 
+	var exp = new Date(); 
+	exp.setTime(exp.getTime() + Days*24*60*60*1000); 
+	document.cookie = name + "="+ escape (value) + "; path=/; expires=" + exp.toGMTString(); 
+}
+if(getCookie('clientdownshow') == null){
+	setTimeout("showclient()",6000);
+}
+function showclient(){
+	$('#downclient').show();
+	isYun('0');
+}
+function down(){
+	$('#downclient').hide();
+	var bua = navigator.userAgent.toLowerCase();
+	if(bua.indexOf('iphone') != -1 || bua.indexOf('ios') != -1){
+		window.location = "https://itunes.apple.com/cn/app/soufun/id413993350?mt=8&ls=1";
+	}else if(bua.indexOf('android') != -1){
+		window.location = "http://client.3g.soufun.com/SouFun_APP_4.2.3_3100.apk";
+	}else{
+		window.location = "http://m.soufun.com/clientindex.jsp?city=bj";
+	}
+}
+
+function closebox(){
+	setCookie('clientdownshow','1');
+	$('#downclient').hide();
+}
+function changlocWithGroll(){
+	var flyers = document.getElementById("flyers");
+	var locheight = parseInt((window.innerHeight-flyers.offsetHeight)/2);
+	var locWidth =  parseInt((window.innerWidth-flyers.offsetWidth)/2)-9;
+	flyers.style.top = locheight + 'px';
+	flyers.style.left = locWidth + 'px';
+}
+var turnflag='1';
+function orientationChange(){
+	switch(window.orientation) {
+		case 0: isYun('0');break;
+		case 180: isYun('2');break;
+		case -90: cisYun('3');break;
+		case 90:isYun('1');break;
+	}
+}
+window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", orientationChange);
+window.onresize=function(){
+	changlocWithGroll();
+}
+function isYun(flag){
+	if(flag==turnflag){
+		
+	}else{
+		turnflag=flag;
+		changlocWithGroll();
+	}
+}
+</script>
+<script type="text/javascript" src="netjs/clickm.js"></script>
+<script type="text/javascript">Clickstat.eventAdd(window, 'load', function(e){Clickstat.batchEvent('waptool_','');});</script>
+<?include_once 'tail_jsq.php'; ?>

@@ -1,0 +1,115 @@
+151101 10:44:34 [Note] Plugin 'FEDERATED' is disabled.
+151101 10:44:34 [Note] Plugin 'InnoDB' is disabled.
+151101 10:44:35 [Note] Event Scheduler: Loaded 0 events
+151101 10:44:35 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151101 18:12:44 [Note] MiniServ_MySQL: Normal shutdown
+
+151101 18:12:44 [Note] Event Scheduler: Purging the queue. 0 events
+151101 18:12:44 [Note] MiniServ_MySQL: Shutdown complete
+
+151102  8:15:47 [Note] Plugin 'FEDERATED' is disabled.
+151102  8:15:47 [Note] Plugin 'InnoDB' is disabled.
+151102  8:15:47 [Note] Event Scheduler: Loaded 0 events
+151102  8:15:47 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151102 12:05:56 [Note] MiniServ_MySQL: Normal shutdown
+
+151102 12:05:56 [Note] Event Scheduler: Purging the queue. 0 events
+151102 12:05:56 [Note] MiniServ_MySQL: Shutdown complete
+
+151103 13:16:30 [Note] Plugin 'FEDERATED' is disabled.
+151103 13:16:30 [Note] Plugin 'InnoDB' is disabled.
+151103 13:16:30 [Note] Event Scheduler: Loaded 0 events
+151103 13:16:30 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151103 18:05:18 [Note] MiniServ_MySQL: Normal shutdown
+
+151103 18:05:18 [Note] Event Scheduler: Purging the queue. 0 events
+151103 18:05:18 [Note] MiniServ_MySQL: Shutdown complete
+
+151104  8:49:06 [Note] Plugin 'FEDERATED' is disabled.
+151104  8:49:06 [Note] Plugin 'InnoDB' is disabled.
+151104  8:49:06 [Note] Event Scheduler: Loaded 0 events
+151104  8:49:06 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151104 18:06:03 [Note] MiniServ_MySQL: Normal shutdown
+
+151104 18:06:03 [Note] Event Scheduler: Purging the queue. 0 events
+151104 18:06:03 [Note] MiniServ_MySQL: Shutdown complete
+
+151107  7:57:48 [Note] Plugin 'FEDERATED' is disabled.
+151107  7:57:48 [Note] Plugin 'InnoDB' is disabled.
+151107  7:57:48 [Note] Event Scheduler: Loaded 0 events
+151107  7:57:48 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151107 12:06:29 [Note] Plugin 'FEDERATED' is disabled.
+151107 12:06:29 [Note] Plugin 'InnoDB' is disabled.
+151107 12:06:29 [Note] Event Scheduler: Loaded 0 events
+151107 12:06:29 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151107 12:45:15 [Note] Plugin 'FEDERATED' is disabled.
+151107 12:45:15 [Note] Plugin 'InnoDB' is disabled.
+151107 12:45:15 [Note] Event Scheduler: Loaded 0 events
+151107 12:45:15 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151107 12:45:41 [Note] MiniServ_MySQL: Normal shutdown
+
+151107 12:45:41 [Note] Event Scheduler: Purging the queue. 0 events
+151107 12:45:41 [Note] MiniServ_MySQL: Shutdown complete
+
+151107 12:46:05 [Note] Plugin 'FEDERATED' is disabled.
+151107 12:46:05 [Note] Plugin 'InnoDB' is disabled.
+151107 12:46:05 [Note] Event Scheduler: Loaded 0 events
+151107 12:46:05 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151107 18:00:05 [Note] MiniServ_MySQL: Normal shutdown
+
+151107 18:00:05 [Note] Event Scheduler: Purging the queue. 0 events
+151107 18:00:06 [Note] MiniServ_MySQL: Shutdown complete
+
+151109  8:15:20 [Note] Plugin 'FEDERATED' is disabled.
+151109  8:15:20 [Note] Plugin 'InnoDB' is disabled.
+151109  8:15:21 [Note] Event Scheduler: Loaded 0 events
+151109  8:15:21 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151109 11:21:18 [Note] MiniServ_MySQL: Normal shutdown
+
+151109 11:21:18 [Note] Event Scheduler: Purging the queue. 0 events
+151109 11:21:19 [Note] MiniServ_MySQL: Shutdown complete
+
+151109 11:22:49 [Note] Plugin 'FEDERATED' is disabled.
+151109 11:22:49 [Note] Plugin 'InnoDB' is disabled.
+151109 11:22:50 [Note] Event Scheduler: Loaded 0 events
+151109 11:22:50 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151109 11:33:59 [Note] Plugin 'FEDERATED' is disabled.
+151109 11:33:59 [Note] Plugin 'InnoDB' is disabled.
+151109 11:34:00 [Note] Event Scheduler: Loaded 0 events
+151109 11:34:00 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151109 12:02:09 [Note] MiniServ_MySQL: Normal shutdown
+
+151109 12:02:09 [Note] Event Scheduler: Purging the queue. 0 events
+151109 12:02:10 [Note] MiniServ_MySQL: Shutdown complete
+
+151110 13:12:33 [Note] Plugin 'FEDERATED' is disabled.
+151110 13:12:33 [Note] Plugin 'InnoDB' is disabled.
+151110 13:12:33 [Note] Event Scheduler: Loaded 0 events
+151110 13:12:33 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151110 15:11:04 [Note] MiniServ_MySQL: Normal shutdown
+
+151110 15:11:04 [Note] Event Scheduler: Purging the queue. 0 events
+151110 15:11:04 [Note] MiniServ_MySQL: Shutdown complete
+
+151110 17:18:10 [Note] Plugin 'FEDERATED' is disabled.
+151110 17:18:10 [Note] Plugin 'InnoDB' is disabled.
+151110 17:18:10 [Note] Event Scheduler: Loaded 0 events
+151110 17:18:10 [Note] MiniServ_MySQL: ready for connections.
+Version: '5.1.50-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+151110 18:04:11 [Note] MiniServ_MySQL: Normal shutdown
+
+151110 18:04:11 [Note] Event Scheduler: Purging the queue. 0 events
+151110 18:04:11 [Note] MiniServ_MySQL: Shutdown complete
+

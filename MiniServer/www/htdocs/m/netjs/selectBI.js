@@ -1,0 +1,34 @@
+$(function(){
+var pid=GetRequest()["id"];
+var type=GetRequest()["type"];
+$("#list1").click(function(){
+	location.href="shareBI.php?id="+pid+"&type="+type+"&select=1";
+});
+$("#list2").click(function(){
+	location.href="shareBI.php?id="+pid+"&type="+type+"&select=2";	
+});
+$("#list3").click(function(){
+	location.href="shareBI.php?id="+pid+"&type="+type+"&select=3";	
+});
+$("#list4").click(function(){
+	location.href="shareBI.php?id="+pid+"&type="+type+"&select=4";	
+});
+$("#list5").click(function(){
+	location.href="shareBI.php?id="+pid+"&type="+type+"&select=5";	
+});
+$("#list6").click(function(){
+	location.href="shareBI.php?id="+pid+"&type="+type+"&select=6";	
+});
+$("#list7").click(function(){
+	location.href="BIcondition.php?id="+pid+"&type="+type+"&select=7";	
+});
+$("#list8").click(function(){
+	location.href="shareBI.php?id="+pid+"&type="+type+"&select=8";	
+});
+$("#list9").click(function(){
+	location.href="BIcondition.php?id="+pid+"&type="+type+"&select=9";	
+});
+$("#list10").click(function(){
+	location.href="BIcondition.php?id="+pid+"&type="+type+"&select=10";	
+});
+});

@@ -1,0 +1,146 @@
+/*tail*/
+.tail_font{
+	font-size: 80%;
+}
+.tail{
+	width:100%;
+	height:50px;
+	float:left;
+}
+.tail ul li{
+	width:20%;
+	height:50px;
+	float:left;
+	text-align: center;
+	background-color: #333333;
+}
+.tail_f1{
+	width:100%;
+	height:50px;
+	color: #00ab99;
+}
+.tail_f2{
+	width:100%;
+	height:50px;
+	color: #ffffff;
+}
+.tail_f1 a{
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_f1 a:hover {
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_f2 a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tail_f2 a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.tail_d1{
+	width:100%;
+	height:50px;
+	color: #00ab99;
+}
+.tail_d2{
+	width:100%;
+	height:50px;
+	color: #ffffff;
+}
+.tail_d1 a{
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_d1 a:hover {
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_d2 a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tail_d2 a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.tail_l1{
+	width:100%;
+	height:50px;
+	color: #00ab99;
+}
+.tail_l2{
+	width:100%;
+	height:50px;
+	color: #ffffff;
+}
+.tail_l1 a{
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_l1 a:hover {
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_l2 a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tail_l2 a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.tail_w1{
+	width:100%;
+	height:50px;
+	color: #00ab99;
+}
+.tail_w2{
+	width:100%;
+	height:50px;
+	color: #ffffff;
+}
+.tail_w1 a{
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_w1 a:hover {
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_w2 a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tail_w2 a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.tail_g1{
+	width:100%;
+	height:50px;
+	color: #00ab99;
+}
+.tail_g2{
+	width:100%;
+	height:50px;
+	color: #ffffff;
+}
+.tail_g1 a{
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_g1 a:hover {
+	color: #00ab99;
+	text-decoration: none;
+}
+.tail_g2 a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tail_g2 a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}

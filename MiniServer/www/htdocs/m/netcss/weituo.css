@@ -1,0 +1,57 @@
+.weituo{
+	height:30px;
+	line-height:30px;
+	color:#333;
+	width:80%;
+	margin: 15px auto 0;
+}
+.weituo2{
+	height:25px;
+	color:#333;
+	width:80%;
+
+	font-size:100%;
+}
+.search1{
+	color:#0040d8;
+	margin:5px 30px 0 5px;
+	
+}
+.search1 a{text-decoration:none; color:#0040d8;}
+.search1 a:hover{text-decoration:underline; color:#0040d8;}
+.search2{
+	color:#666;
+	margin:5px 15px 0 5px;
+}
+.search2 a{text-decoration:none; color:#666;}
+.search2 a:hover{text-decoration:underline; color:#666;}
+.drop{
+	color:#333;
+	width:100%;
+	margin:0 auto;
+}
+.weituo_border{
+	width:80%;
+	border: 1px solid #999;
+}
+.weituo_an{
+	width:80%;
+	height: 50px;
+	text-align: center;
+	margin:20px auto;
+}
+.guanyu{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+.guanyu2{
+	width:90%;
+	text-align: left;
+	font-size:80%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-bottom: 60px;
+}

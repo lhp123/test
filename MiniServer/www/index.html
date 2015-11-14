@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>感谢使用MiniServer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex" />
+    <style type="text/css">
+    <!--
+    body {
+        color: #444444;
+        background-color: #EEEEEE;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 80%;
+    }
+    h1 {}
+    h2 { font-size: 1.2em; }
+    #page{
+        background-color: #FFFFFF;
+        width: 60%;
+        margin: 24px auto;
+        padding: 12px;
+    }
+    #header {
+        padding: 6px ;
+        text-align: center;
+    }
+    .status3xx { background-color: #475076; color: #FFFFFF; }
+    .status4xx { background-color: #0099FF; color: #FFFFFF; }
+    .status5xx { background-color: #F2E81A; color: #000000; }
+    #content {
+        padding: 4px 0 24px 0;
+    }
+	 #footer {
+        color: #666666;
+        background: #f9f9f9;
+        padding: 10px 20px;
+        border-top: 5px #efefef solid;
+        font-size: 1em;
+        text-align: center;
+    }
+    #footer a {
+        color: #999999;
+    }
+    #shuom {
+        color: #666666;
+        background: #f9f9f9;
+        padding: 10px 20px;
+        border-top: 5px #efefef solid;
+        font-size: 1em;
+        text-align: center;
+    }
+    #shuom a {
+        color: #999999;
+    }
+    -->
+    </style>
+<STYLE>.proccess {
+    BACKGROUND: #ffffff; BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; HEIGHT: 8px; MARGIN: 3px; WIDTH: 8px
+}
+</STYLE>
+</head>
+<body>
+    <div id="page">
+        <div id="header" class="status4xx">
+            <h2>感谢使用MiniServer，请仔细阅读以下事项</h2>
+        </div>
+<DIV>
+          <FONT class=fontbig>
+		      <p> 1.数据库管理地址为 <a href="http://127.0.0.1/phpmyadmin">http://127.0.0.1/phpmyadmin</a> 默认用户名 <b>root</b>  密码为 <b>miniserver</b>，菜单中有MySQL root用户密码重置功能</p> 
+              <p> 2.一般情况下，我个人不推荐新手更改组件配置文件或对组件进行升级操作，否则可能会导致MiniServer无法正常开启</p>
+			  <p> 3.网站根目录为 <b>www/htdocs</b> 文件夹，可以通过MiniServer菜单快速进入，也可以使用Apache的虚拟目录功能单独设置目录（Nginx暂时不支持虚拟目录）</p> 
+			  <p> 4.目前没有修改端口的功能，启动前请确保其他软件没有占用80和3306端口，如果遇到MiniServer中某组件无法正常启动，请使用菜单中的调试模式检查错误信息，或者检查端口占用情况</p>
+			  <p> 5.请勿在在含有中文路径或目录下使用MiniServer，否则会造成组件无法启动等问题（从MiniServer 1.3版本起开始支持包含空格的英文或数字路径）</p> 
+			  <p> 6.调试功能是个非常不错的功能，如果有问题，从调试模式入手检查错误信息是明智之选。</p>
+			  <p> 7.MiniServer从0.7版本开始使用支持IPv6模块的Apache和Nginx，查看本机IPv6地址可以用 ipconfig 命令或者直接登陆 ipv6-test.com</p>
+			  <p> 8.理论来说，Linux下的Nginx，其性能要优于Apache，但是在Windows下则恰恰相反</p>
+			  <p> 9.内置一款探针程序，可以让您更好的浏览本机服务器信息。<a href="http://127.0.0.1/tz.php">http://127.0.0.1/tz.php</a></p>
+</DIV>
+<DIV align=center>
+      <div id="footer">
+        <p><a href="http://miniserver.zhainan.org">MiniServer</a><br /></p>
+      </div>
+    </div>
+</body>
+</html>

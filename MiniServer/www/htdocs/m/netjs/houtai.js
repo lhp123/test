@@ -1,0 +1,3 @@
+$(function(){
+	checkadminlogin(6);
+	});

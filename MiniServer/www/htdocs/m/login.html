@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta http-equiv="Content-Type" content="textml; charset=UTF-8"> 
+	<meta charset="utf-8"> 
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"> 
+	<meta content="yes" name="apple-mobile-web-app-capable"> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style"> 
+	<meta content="telephone=yes" name="format-detection">
+	<link rel="stylesheet" type="text/css" href="netcss/style.css" />
+	<script type="text/javascript" src="netjs/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="netjs/RegLogin.js"></script>
+	<title>账户登录</title>
+ </head>
+ <body>
+	<div id="content" class="content">
+		<div class="header">
+			<h1>账户登录</h1>
+		</div>
+		<div class="middle">
+			<form id="loginForm" name="loginForm">
+				<div class="divInput">
+					<input type="text" name="username" id="username" />	
+					<span class="inputTip" style="display:block;">账户名</span>
+				</div>
+				<span id="usersp" class="error" style="display:none;"></span>
+				<div class="divInput">
+					<input type="password" name="password" id="password" />	
+					<span class="inputTip" style="display:block;">密 码</span>
+				</div>
+				<span id="pwdsp" class="error" style="display:none;"></span>
+				<div class="denglu">
+					<a id="login">登 录</a>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			function $name(_this,class_name){
+				return $(_this).parent().find(class_name);
+			}
+			$("input").each(function(){
+				$(this).click(function(){
+					$name(this,"span").css("display","none");
+				})
+			})
+		})
+		$("#username").blur(function(){
+			if($.trim($(this).val()) == "" || $.trim($(this).val()) == undefined){
+				$("#usersp").css("display","block").html("用户名不能为空");
+			}
+		})
+		$("#password").blur(function(){
+			if($.trim($(this).val()) == "" || $.trim($(this).val()) == undefined){
+				$("#pwdsp").css("display","block").html("密码不能为空");
+			}	
+		})
+		$("#login").click(function(){
+			if($.trim($("#username").val()) == "" || $.trim($("#username").val()) == undefined){
+				$("#usersp").css("display","block").html("用户名不能为空");
+			}
+			if($.trim($("#password").val()) == "" || $.trim($("#password").val()) == undefined){
+				$("#pwdsp").css("display","block").html("密码不能为空");
+			}
+			if($.trim($("#username").val()) != "" && $.trim($("#username").val()) != undefined && $.trim($("#password").val()) != "" && $.trim($("#password").val()) != undefined){
+				var data = {username:$.trim($("#username").val()),password:$.trim($("#password").val())};
+				//regist(data);
+				sub1(data);
+				}
+		})
+	</script>
+ </body>
+</html>

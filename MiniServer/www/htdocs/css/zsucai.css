@@ -1,0 +1,159 @@
+/* ¥˙¬Î’˚¿Ì£∫’“Àÿ≤ƒ www.zsucai.com */
+@charset "gb2312";
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+	margin: 0;
+	padding: 0;
+}
+
+select, input, button {
+	vertical-align: middle;
+	font-size: 100%;
+}
+ul, ol {
+	list-style: none;
+}
+fieldset, img {
+	border: 0;
+}
+em {
+	font-style: normal;
+}
+.clear {
+	clear: both;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.clearfix {
+*zoom:1;
+}
+
+.wrapper, .header, .navbox {
+	width: 648px;
+	margin: 0 auto;
+}
+.side {
+	float: right;
+	width: 235px;
+}
+.main {
+	float: left;
+	width: 648px;
+
+}
+
+
+.oldpage-link {
+	float: right;
+	height: 32px;
+	font-weight: 700;
+	line-height: 32px;
+}
+.navbox {
+	overflow: hidden;
+	height: 42px;
+	line-height: 42px;
+	background-position: 0 -36px;
+	background-repeat: repeat-x;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.tab {
+	position: relative;
+	width: 648px;
+	margin-bottom: -2px;
+	background: #f8f8f8;
+}
+.tab ul img {
+	vertical-align: middle;
+}
+.slide {
+	width: 648px;
+	height: 270px;
+	overflow: hidden;
+	position: relative;
+}
+.slide-ul {
+	position: relative;
+	width: 8640px;
+
+}
+.slide-ul li {
+	display: inline;
+	float: left;
+	width: 648px;
+	height: 270px;
+	overflow: hidden;
+}
+
+.slide-ul .pic-txt {
+	display: block;
+	bottom: -30px;
+	position: relative;
+	width: 220px;
+	height: 30px;
+	margin: -30px 0 0;
+
+	font: 14px/30px Microsoft YaHei;
+	text-align: center;
+	z-index: 1;
+	background: rgba(0,0,0,0.5);
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#80000000, endColorstr=#80000000);
+	cursor: pointer;
+}
+:root .slide-ul .pic-txt {
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, startColorstr=#00000000, endColorstr=#00000000);
+}
+.info-btn {
+	width: 170px;
+	height: 22px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 11px 0;
+	zoom: 1;
+}
+.info-btn li {
+	float: left;
+	padding: 0 3px;
+}
+.info-btn li span {
+	display: block;
+	width: 22px;
+	height: 22px;
+	background:url(../images/ico.png) 0 -27px no-repeat;
+	text-indent: -9999em;
+	overflow: hidden;
+	cursor: pointer;
+}
+.info-btn .info-cur span, .info-btn .info-hover span {
+	background-position: 0 0;
+}
+
+
+#bigSlideUl li table tr td .tex16 a {font-size:16px; color:#333;} 
+
+#bigSlideUl li table tr td .tex16 a:link {color: #333; text-decoration:none;} 
+
+#bigSlideUl li table tr td .tex16 a:active:{color: #333; } 
+
+#bigSlideUl li table tr td .tex16 a:visited {color:#333;text-decoration:none;} 
+
+#bigSlideUl li table tr td .tex16 a:hover {color:#3f3f3f; text-decoration:underline; } 
+
+
+
+#bigSlideUl li table tr td .tex14 a {font-size:14px; color:#333;} 
+
+#bigSlideUl li table tr td .tex14 a:link {color: #333; text-decoration:none;} 
+
+#bigSlideUl li table tr td .tex14 a:active:{color: #333; } 
+
+#bigSlideUl li table tr td .tex14 a:visited {color:#333;text-decoration:none;} 
+
+#bigSlideUl li table tr td .tex14 a:hover {color:#3f3f3f; text-decoration:underline; } 

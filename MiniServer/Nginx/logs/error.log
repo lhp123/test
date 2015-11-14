@@ -1,0 +1,174 @@
+2015/08/28 09:32:14 [emerg] 4292#4296: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2015/08/28 09:47:09 [error] 4756#5080: *3 FastCGI sent in stderr: "PHP Notice:  Undefined index:  action in E:\MiniServer\www\htdocs\m\INCLUDE.php on line 110
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 206
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 268
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 330
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 392
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 454
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 520
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 552" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11"
+2015/08/28 09:47:09 [error] 4756#5080: *3 FastCGI sent in stderr: "PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in E:\MiniServer\www\htdocs\m\qj9.php on line 73
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 612
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 619
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 625" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11"
+2015/08/28 09:47:09 [error] 4756#5080: *7 CreateFile() "E:/MiniServer/www/htdocs/m/css/jquery.ui.base.css" failed (2: The system cannot find the file specified), client: 192.168.1.3, server: localhost, request: "GET /m/css/jquery.ui.base.css HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:09 [error] 4756#5080: *11 CreateFile() "E:/MiniServer/www/htdocs/m/css/jquery.ui.theme.css" failed (2: The system cannot find the file specified), client: 192.168.1.3, server: localhost, request: "GET /m/css/jquery.ui.theme.css HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:13 [error] 4756#5080: *5 FastCGI sent in stderr: "PHP Notice:  Undefined index:  action in E:\MiniServer\www\htdocs\m\INCLUDE.php on line 110
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 206
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 268
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 330
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 392
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 454
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 520
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 552" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11"
+2015/08/28 09:47:13 [error] 4756#5080: *5 FastCGI sent in stderr: "PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in E:\MiniServer\www\htdocs\m\qj9.php on line 73
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 612
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 619
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 625" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11"
+2015/08/28 09:47:13 [error] 4756#5080: *5 CreateFile() "E:/MiniServer/www/htdocs/m/css/jquery.ui.base.css" failed (2: The system cannot find the file specified), client: 192.168.1.3, server: localhost, request: "GET /m/css/jquery.ui.base.css HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:13 [error] 4756#5080: *7 CreateFile() "E:/MiniServer/www/htdocs/m/css/jquery.ui.theme.css" failed (2: The system cannot find the file specified), client: 192.168.1.3, server: localhost, request: "GET /m/css/jquery.ui.theme.css HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:17 [error] 4756#5080: *7 FastCGI sent in stderr: "PHP Notice:  Undefined index:  action in E:\MiniServer\www\htdocs\m\INCLUDE.php on line 110
+PHP Notice:  Undefined index:  rname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  pname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  hname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  lname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  mohu in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined variable: title in E:\MiniServer\www\htdocs\m\head.php on line 270" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/fylist.php?y=zl HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:17 [error] 4756#5080: *7 FastCGI sent in stderr: "PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in E:\MiniServer\www\htdocs\m\qj9.php on line 73
+PHP Notice:  Undefined index:  rname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re1 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re3 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re2 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  pname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  price in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  hname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  h_shi in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  lname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  label in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  mohu in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/fylist.php?y=zl HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:17 [error] 4756#5080: *7 FastCGI sent in stderr: "PHP Notice:  Undefined variable: MURL in E:\MiniServer\www\htdocs\m\tail2.php on line 60" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/fylist.php?y=zl HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:17 [error] 4756#5080: *11 CreateFile() "E:/MiniServer/www/htdocs/m/undefined/touch/img/search_bg.png" failed (3: The system cannot find the path specified), client: 192.168.1.3, server: localhost, request: "GET /m/undefined/touch/img/search_bg.png HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/fylist.php?y=zl"
+2015/08/28 09:47:18 [error] 4756#5080: *11 FastCGI sent in stderr: "PHP Notice:  Undefined index:  re1 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re2 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re3 in E:\MiniServer\www\htdocs\m\getfylist.php on line 96
+PHP Notice:  Undefined index:  mohu in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  price in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 185
+PHP Notice:  Undefined index:  h_shi in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 243
+PHP Notice:  Undefined index:  label in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 243
+PHP Notice:  Undefined variable: i in E:\MiniServer\www\htdocs\m\getfylist.php on line 224
+PHP Notice:  Undefined variable: i in E:\MiniServer\www\htdocs\m\getfylist.php on line 228" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/getfylist.php?action=fysearch&y=zl&page=0&m=0.7692493109498173&y=zl&page=0&url=getfylist.php%3Faction%3Dfysearch%26y%3Dzl%26page%3D0%26m%3D0.7692493109498173&J1440726592052 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/fylist.php?y=zl"
+2015/08/28 09:47:20 [error] 4756#5080: *11 FastCGI sent in stderr: "PHP Notice:  Undefined index:  action in E:\MiniServer\www\htdocs\m\INCLUDE.php on line 110" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/about.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:20 [error] 4756#5080: *11 FastCGI sent in stderr: "PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in E:\MiniServer\www\htdocs\m\qj9.php on line 73" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/about.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:20 [error] 4756#5080: *11 FastCGI sent in stderr: "PHP Notice:  Undefined variable: fydrs in E:\MiniServer\www\htdocs\m\about.php on line 40
+PHP Notice:  Undefined variable: MURL in E:\MiniServer\www\htdocs\m\tail2.php on line 60" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/about.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:20 [error] 4756#5080: *6 CreateFile() "E:/MiniServer/www/htdocs/m/netcss/View.css" failed (2: The system cannot find the file specified), client: 192.168.1.3, server: localhost, request: "GET /m/netcss/View.css HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/about.php"
+2015/08/28 09:47:23 [error] 4756#5080: *13 FastCGI sent in stderr: "PHP Notice:  Undefined index:  action in E:\MiniServer\www\htdocs\m\INCLUDE.php on line 110
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 206
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 268
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 330
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 392
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 454
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 520
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 552" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:23 [error] 4756#5080: *13 FastCGI sent in stderr: "PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in E:\MiniServer\www\htdocs\m\qj9.php on line 73
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 612
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 619
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 625" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/"
+2015/08/28 09:47:23 [error] 4756#5080: *13 CreateFile() "E:/MiniServer/www/htdocs/m/css/jquery.ui.base.css" failed (2: The system cannot find the file specified), client: 192.168.1.3, server: localhost, request: "GET /m/css/jquery.ui.base.css HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/index.php"
+2015/08/28 09:47:23 [error] 4756#5080: *12 CreateFile() "E:/MiniServer/www/htdocs/m/css/jquery.ui.theme.css" failed (2: The system cannot find the file specified), client: 192.168.1.3, server: localhost, request: "GET /m/css/jquery.ui.theme.css HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/index.php"
+2015/08/28 09:47:24 [error] 4756#5080: *12 FastCGI sent in stderr: "PHP Notice:  Undefined index:  action in E:\MiniServer\www\htdocs\m\INCLUDE.php on line 110
+PHP Notice:  Undefined index:  rname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  pname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  hname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  lname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  mohu in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined variable: title in E:\MiniServer\www\htdocs\m\head.php on line 208" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/fylist.php?y=mm HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/index.php"
+2015/08/28 09:47:24 [error] 4756#5080: *12 FastCGI sent in stderr: "PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in E:\MiniServer\www\htdocs\m\qj9.php on line 73
+PHP Notice:  Undefined index:  rname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re1 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re3 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re2 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  pname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  price in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  hname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  h_shi in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  lname in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  label in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  mohu in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/fylist.php?y=mm HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/index.php"
+2015/08/28 09:47:24 [error] 4756#5080: *12 FastCGI sent in stderr: "PHP Notice:  Undefined variable: MURL in E:\MiniServer\www\htdocs\m\tail2.php on line 60" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/fylist.php?y=mm HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/index.php"
+2015/08/28 09:47:24 [error] 4756#5080: *12 CreateFile() "E:/MiniServer/www/htdocs/m/undefined/touch/img/search_bg.png" failed (3: The system cannot find the path specified), client: 192.168.1.3, server: localhost, request: "GET /m/undefined/touch/img/search_bg.png HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/fylist.php?y=mm"
+2015/08/28 09:47:25 [error] 4756#5080: *12 FastCGI sent in stderr: "PHP Notice:  Undefined index:  re1 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re2 in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  re3 in E:\MiniServer\www\htdocs\m\getfylist.php on line 96
+PHP Notice:  Undefined index:  mohu in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 133
+PHP Notice:  Undefined index:  price in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 185
+PHP Notice:  Undefined index:  h_shi in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 243
+PHP Notice:  Undefined index:  label in E:\MiniServer\www\htdocs\include\db\DBCON_YD_QJ.php on line 243
+PHP Notice:  Undefined variable: i in E:\MiniServer\www\htdocs\m\getfylist.php on line 224
+PHP Notice:  Undefined variable: i in E:\MiniServer\www\htdocs\m\getfylist.php on line 228" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/getfylist.php?action=fysearch&y=mm&page=0&m=0.9900959625374526&y=mm&page=0&url=getfylist.php%3Faction%3Dfysearch%26y%3Dmm%26page%3D0%26m%3D0.9900959625374526&J1440726599340 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/fylist.php?y=mm"
+2015/08/28 09:51:07 [error] 4756#5080: *21 FastCGI sent in stderr: "PHP Notice:  Undefined index:  action in E:\MiniServer\www\htdocs\m\INCLUDE.php on line 110
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 206
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 268
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 330
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 392
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 454
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 520
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 552" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/fylist.php?y=mm"
+2015/08/28 09:51:07 [error] 4756#5080: *21 FastCGI sent in stderr: "PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in E:\MiniServer\www\htdocs\m\qj9.php on line 73
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 612
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 619
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 625" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11", referrer: "http://192.168.1.11/m/fylist.php?y=mm"
+2015/08/28 09:52:53 [error] 4756#5080: *30 FastCGI sent in stderr: "PHP Notice:  Undefined index:  action in E:\MiniServer\www\htdocs\m\INCLUDE.php on line 110
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 152
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 206
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 268
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 330
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 392
+PHP Notice:  Undefined variable: MENU in E:\MiniServer\www\htdocs\m\head.php on line 454
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 520
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 530
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 538
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 552" while reading response header from upstream, client: 192.168.1.3, server: localhost, request: "GET /m/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11"
+2015/08/28 09:52:53 [error] 4756#5080: *30 FastCGI sent in stderr: "PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in E:\MiniServer\www\htdocs\m\qj9.php on line 73
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 612
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 619
+PHP Notice:  Undefined variable: MPOS in E:\MiniServer\www\htdocs\m\head.php on line 625" while reading upstream, client: 192.168.1.3, server: localhost, request: "GET /m/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.1.11"
+2015/08/28 09:52:53 [error] 4756#5080: *30 CreateFile() "E:/MiniServer/www/htdocs/m/css/jquery.ui.base.css" failed (2: The system cannot find the file specified), client: 192.168.1.3, server: localhost, request: "GET /m/css/jquery.ui.base.css HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/index.php"
+2015/08/28 09:52:53 [error] 4756#5080: *31 CreateFile() "E:/MiniServer/www/htdocs/m/css/jquery.ui.theme.css" failed (2: The system cannot find the file specified), client: 192.168.1.3, server: localhost, request: "GET /m/css/jquery.ui.theme.css HTTP/1.1", host: "192.168.1.11", referrer: "http://192.168.1.11/m/index.php"

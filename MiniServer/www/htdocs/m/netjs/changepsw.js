@@ -1,0 +1,34 @@
+$(function(){
+$("#register").click(function(){
+		if($.trim($("#opassword").val())==""||$.trim($("#opassword").val())==undefined){
+			alert("请输入原来的密码");
+			return;
+		}
+		if($.trim($("#npassword").val())==""||$.trim($("#npassword").val())==undefined){
+			alert("请输入新的密码");
+			return;
+		}
+		if($.trim($("#gpassword").val())==""||$.trim($("#gpassword").val())==undefined){
+			alert("请重新输入新的密码");
+			return;
+		}
+		if($.trim($("#gpassword").val())!=$.trim($("#npassword").val())){
+			alert("请重新输入新的密码");
+			return;
+		}
+		if(checkStrong($.trim($("#npassword").val()))<2){
+			alert("请填写六位以上带字母和数字的密码");
+			return;
+
+		}
+		$.post("action.php",{action:"changepsw",opassword:$.trim($("#opassword").val()),npassword:$.trim($("#npassword").val())},function(data){
+			var datas = jQuery.parseJSON(data);
+			if(datas.success==1){
+				alert("修改成功！");
+				location.reload();
+			}else{
+				alert(datas.msg);
+			}
+		});
+	});
+});

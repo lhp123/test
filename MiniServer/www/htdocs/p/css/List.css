@@ -1,0 +1,586 @@
+.L {
+	position: absolute;
+	background: #e7e8ec;
+	height: 100%;
+	width: 100%;
+	float:left;
+}
+
+.ipad_left {
+	height: 100%;
+	width: 25%;
+	float:left;
+}
+.ipad_left_top {
+	width:100%;
+	height:46px;
+	background-image: url(../netimages/top_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+.ipad_left_menu {
+	width:100%;
+}
+.ipad_left_menu ul {
+	width:100%;
+}
+.ipad_left_menu ul li {
+	width:100%;
+	float:left;
+	height:48px;
+	line-height:48px;
+	color:#FFF;
+	font-weight:bold;
+	font-size:110%;
+}
+.menu_tb {
+	width:55%;
+	margin:0 auto;
+	letter-spacing: 10px;
+}
+.ipad_left_menu ul li img {
+	padding-top:10px;
+	margin-right:30px;
+	float: left;
+}
+.menu_name {
+	float: left;
+}
+.ipad_left_menu1 {
+	background-image: url(../netimages/ipad_left_menu1.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+}
+.ipad_left_menu2 {
+	background-image: url(../netimages/ipad_left_menu2.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+}
+.ipad_left_menu1 a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+.ipad_left_menu1 a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+.ipad_left_menu1 a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+.ipad_left_menu1 a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+.ipad_left_menu2 a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+.ipad_left_menu2 a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+.ipad_left_menu2 a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+.ipad_left_menu2 a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+.ipad_right {
+	height: 100%;
+	width: 75%;
+	float:right;
+	background-image: url(../netimages/border.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.ipad_left_dt {
+	height: 100%;
+	width: 65%;
+	float:left;
+}
+.ipad_right_dt {
+	height: 100%;
+	width: 35%;
+	float:right;
+}
+.F {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	display: none;
+	overflow: hidden
+}
+
+.F .e {
+	position: absolute;
+	right: -288px;
+	width: 263px;
+	height: 100%;
+	color: #ececec;
+	z-index: 100;
+	-webkit-transition: right .5s ease
+}
+
+.F .es {
+	right: 0
+}
+
+.F .e1 {
+	display: block;
+	width: 25px;
+	height: 50px;
+	text-align: center;
+	line-height: 1.2em;
+	cursor: pointer;
+	border-radius: 3px 0 0 3px;
+	background: no-repeat center 12px #333;
+	background-size: 12px 14px;
+	padding: 30px 0 0 0;
+	position: absolute;
+	right: 100%;
+	z-index: 102;
+	margin-top: -40px
+}
+
+.F .e2 {
+	position: absolute;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch
+}
+
+.F .e2a {
+	overflow: hidden;
+	padding: 0 10px 0 10px;
+	display: none;
+	padding-bottom: 20px
+}
+
+.F .e2s,.F .e3s {
+	display: block !important
+}
+
+.F .e2a i {
+	border-bottom: 2px solid #FFF;
+	display: inline-block;
+	padding: 0 11px;
+	line-height: 43px
+}
+
+.F .e2a span,.F .e2a>a {
+	display: block;
+	color: #ececec;
+	font-size: 15px;
+	height: 46px;
+	line-height: 46px;
+	border-bottom: 1px solid #444;
+	padding-left: 11px
+}
+
+.F .e2a .e5 {
+	background: #666 !important
+}
+
+.F .e4a {
+	background: no-repeat 98% center;
+	background-size: 8px 6px
+}
+
+.F .e2a .e4b {
+	border-bottom: 0;
+	background: no-repeat 98% center;
+	background-size: 8px 6px
+}
+
+.F .e3 {
+	width: 100%;
+	display: none
+}
+
+.F .e3 a {
+	color: #ececec;
+	display: inline-block;
+	width: 78px;
+	background-color: #111;
+	font-size: 12px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	border-right: 1px solid #444;
+	border-bottom: 1px solid #444;
+	overflow: hidden;
+	vertical-align: top
+}
+
+.F .e7 {
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%
+}
+
+.L .hx_list {
+	padding-bottom: 60px;
+	background-color: #f4f4f4;
+}
+
+.L .h {
+	position: relative;
+	display: block;
+	height: 140px;
+	padding: 0 15px 0 15px;
+	color: #560d8c;
+	border-bottom: 1px solid #e7e7e7
+}
+
+.L .h img {
+	float: left;
+	width: 120px;
+	height: 120px;
+	overflow: hidden
+}
+
+.L .h .h1 {
+	display: inline-block;
+	position: absolute;
+	margin-top: 20px;
+	padding-left: 15px
+}
+
+.L .h .h1 span {
+	font-size: 14px;
+	display: block;
+	color: #666;
+	line-height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.L .h .h1 span:first-of-type {
+	color: #333;
+	font-weight: 700;
+	vertical-align: top;
+	padding-bottom: 20px
+}
+
+.L .a2 {
+	margin: 10px 0;
+	vertical-align: top;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	-webkit-background-size: 25px 25px;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: center -10px;
+	opacity: .7
+}
+
+.L .a1 {
+	width: 100%;
+	height: 60px;
+	padding-top: 25px;
+	text-align: center
+}
+
+.L .a1 span {
+	text-align: center;
+	color: #666;
+	padding-left: 10px
+}
+
+.L .a3 {
+	text-align: center;
+	line-height: 40px;
+	color: #666
+}
+
+.L .a4 div {
+	width: 150px;
+	color: #666;
+	line-height: 24px;
+	margin: 0 auto
+}
+
+.L .a4 i {
+	width: 65px;
+	height: 65px;
+	-webkit-background-size: 65px;
+	background-size: 65px;
+	display: block;
+	margin: 60px auto 20px
+}
+
+.L .s {
+	position: relative;
+	width: 100%;
+	border-top: 1px solid #bbbbbc;
+	border-bottom: 1px solid #d9d9d9;
+	display: -webkit-box;
+	display: box;
+	-webkit-box-shadow: 0 .1px 2px 0 #CCC;
+	float:right;
+}
+
+.L .s a {
+	position: relative;
+	width: 100%;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	display: block;
+	text-align: left;
+	height: 46px;
+	line-height: 46px;
+	color: #666;
+	font-size: 14px;
+	padding: 0 0 0 12px;
+	outline: 0;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #FFF
+}
+
+.L .s a span {
+	display: inline-block;
+	position: relative;
+	width: 81%;
+	height: 46px;
+	line-height: 46px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 8px 4px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.L .s a:active :not (.s2 ){
+	background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0%, #cacaca),
+		color-stop(6%, #dcdcdc), color-stop(35%, #ececec),
+		color-stop(100%, #f0f0f0) );
+	z-index: 2
+}
+
+.L .s .s1 {
+	position: absolute;
+	top: 12px;
+	width: 1px;
+	height: 22px;
+	background: #d9d9d9;
+	-webkit-box-shadow: 1px 0 0 .5px #FFF;
+	z-index: 1
+}
+
+.L .s .s2 span {
+	background: none !important
+}
+
+.L .hx_list .h img {
+	float: left;
+	width: 120px;
+	height: 110px;
+	overflow: hidden;
+	margin-top: 20px
+}
+
+.H .s1 {
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	top: 0;
+	padding-left: 70px;
+	padding-right: 10px
+}
+
+.H .s1 input {
+	width: 100%;
+	border-radius: 3px;
+	height: 34px;
+	border: 1px solid #d9d9d9;
+	font-size: 14px;
+	background-color: #fff;
+	outline: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-user-modify: read-write-plaintext-only;
+	margin: 0;
+	padding: 0 35px 0 10px;
+	-webkit-box-sizing: border-box
+}
+
+.H .s1 i {
+	position: absolute;
+	width: 30px;
+	height: 32px;
+	top: 14px;
+	right: 10px;
+	background: url('../img/search.png') no-repeat;
+	background-size: 18px
+}
+
+.L .list_phone {
+	padding-bottom: 40px
+}
+
+.L .news_list {
+	-webkit-box-sizing: border-box;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 15px 10px;
+	display: block
+}
+
+.L .news_list span {
+	-webkit-box-sizing: border-box;
+	padding-right: 10px;
+	line-height: 24px;
+	font-size: .9em;
+	color: #999;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.L .news_list span:first-of-type {
+	color: #333;
+	font-weight: 600
+}
+
+.L .news_list_params {
+	display: -webkit-box;
+	margin-top: 10px
+}
+
+.L .news_list_params i {
+	-webkit-box-sizing: border-box;
+	-webkit-box-flex: 1;
+	font-size: .7em;
+	display: block;
+	overflow: hidden;
+	padding: 5px 0 5px 18px;
+	color: #CCC
+}
+
+.L .hl:active {
+	background: #e4e4e4
+}
+
+.L .news_list .news_activity {
+	-webkit-box-sizing: border-box;
+	display: inline-block;
+	padding-right: 35px;
+	width: 95%
+}
+
+body .android_phone {
+	background: rgba(0, 0, 0, 0.7);
+	border: 0;
+	border-radius: 0;
+	height: 50px;
+	width: 100% !important;
+	margin: 0 !important
+}
+
+.phone_ext {
+	color: #ff0;
+	font-size: 20px
+}
+
+.userpeo {
+	position: fixed;
+	z-index: 500;
+	width: 96%;
+	margin: 0 2% 5px;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#66b601),
+		to(#599d00), color-stop(0.01, #a0d363), color-stop(0.04, #66b601) );
+	border: 1px solid #397300;
+	border-radius: 3px;
+	bottom: 0;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-alian: center
+}
+
+.a7 {
+	white-space: nowrap;
+	display: inline-block;
+	background: url("../img/icon_phone.png") no-repeat 0 13px;
+	background-size: 18px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 1em;
+	padding-left: 22px
+}
+
+.android_phone .a7 {
+	line-height: 50px;
+	background-position: 0 17px
+}
+
+body .nowcall {
+	height: 134px;
+	position: fixed;
+	z-index: 500;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-alian: center;
+	bottom: -86px;
+	text-align: center;
+	-webkit-transition: bottom .4s
+}
+
+body .nowcall.animation {
+	bottom: 0
+}
+
+.tel_ext {
+	color: #FF0;
+	font-size: 26px;
+	display: block;
+	margin: -5px 0 8px 0
+}
+
+.nowCallBut {
+	border-top: 1px solid #c1c1c1;
+	height: 39px;
+	line-height: 39px;
+	width: 98%;
+	margin: 0 auto;
+	display: block;
+	border-radius: 3px;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #939393), color-stop(1, #808080), color-stop(1, #656565) );
+	color: #FFF;
+	font-weight: bold
+}
+
+.zz {
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	background: #FFF;
+	opacity: 0;
+	width: 100%
+}
+
+.duty {
+	padding: 14px 18px;
+	text-indent: 2em;
+	line-height: 22px;
+	font-size: 14px
+}
+.detail_text {
+	color:#FFF;
+}

@@ -1,0 +1,1 @@
+<?/*mobile Function*///include_once('../eall/DBCON_YD.php');include_once('../include/db/DBCON_YD_QJ.php');function p_gbk($str){	echo iconv('utf-8', 'GBK', $str);}function p_utf8($str){	echo iconv('GBK', 'utf-8', $str);}function get_gbk($str){	return iconv('utf-8', 'GBK', $str);}function get_utf8($str){	return iconv('GBK', 'utf-8', $str);}?>
